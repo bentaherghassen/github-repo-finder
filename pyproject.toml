@@ -1,0 +1,9 @@
+[project]
+name = "github-repo-finder"
+version = "1.0.0"
+description = "Find and rank top GitHub repositories for configured topics."
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
