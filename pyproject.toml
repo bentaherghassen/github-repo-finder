@@ -1,8 +1,14 @@
 [project]
 name = "github-repo-finder"
 version = "1.0.0"
-description = "Find and rank top GitHub repositories for configured topics."
+description = "A modern Python workflow that finds and ranks top GitHub repositories for a configurable list of topics."
 requires-python = ">=3.11"
+authors = [
+    { name = "Ghassen Ben Taher", email = "contact@bentaherghassen.com" }
+]
+
+[project.urls]
+Homepage = "https://www.bentaherghassen.com"
 
 [tool.pytest.ini_options]
 pythonpath = ["."]

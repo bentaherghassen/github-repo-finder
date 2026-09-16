@@ -12,3 +12,4 @@ reports/*.md
 
 !data/.gitkeep
 !reports/.gitkeep
+.pytest_cache
