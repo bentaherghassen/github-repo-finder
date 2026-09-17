@@ -6,6 +6,7 @@ from email.mime.text import MIMEText
 import logging
 from pathlib import Path
 import smtplib
+from typing import Any
 
 from .config import Settings
 from .models import Repository
