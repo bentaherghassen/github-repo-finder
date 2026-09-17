@@ -217,17 +217,3 @@ Do not commit `.env`.
 
 If a token becomes public, revoke it immediately and create a new one.
 
-## Ideas for extending the workflow
-
-- GitHub Actions scheduled runs
-- SQLite repository history
-- CSV output
-- Email reports
-- Telegram notifications
-- RSS feeds
-- Language filters
-- Minimum stars
-- Repository age filters
-- README analysis
-- AI summaries
-- Web dashboard
