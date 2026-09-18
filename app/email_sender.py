@@ -1,11 +1,11 @@
 import asyncio
+import logging
+import smtplib
 from email import encoders
 from email.mime.base import MIMEBase
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-import logging
 from pathlib import Path
-import smtplib
 from typing import Any
 
 from .config import Settings
@@ -27,7 +27,6 @@ def _is_placeholder_credential(val: str | None) -> bool:
         return True
     return val.strip().lower() in DUMMY_VALUES or "example.com" in val.lower()
 
-
 def _build_email_message(
     settings: Settings,
     repositories: list[Repository],
@@ -35,14 +34,15 @@ def _build_email_message(
     json_path: Path | None = None,
     rising_stars: list[dict[str, Any]] | None = None,
 ) -> MIMEMultipart:
-    """Construct a multipart MIME email message containing the report and attachments."""
+    """Construct a screen-reader-friendly MIME email message containing the report and attachments."""
     msg = MIMEMultipart("mixed")
     msg["From"] = settings.gmail_user
     msg["To"] = settings.email_recipient
-    msg["Subject"] = f"GitHub Repository Finder Report - {len(repositories)} Repositories Found"
+    msg["Subject"] = f"{len(repositories)} Repositories Found for today"
 
-    # Create the text and HTML bodies
     top_repos = repositories[: settings.report_top_n]
+    
+    # --- Plain Text Version ---
     summary_lines = [
         "GitHub Repository Finder Discovery Report",
         "=" * 42,
@@ -50,49 +50,19 @@ def _build_email_message(
         "",
     ]
 
-    # Rising stars text block
-    rising_stars_html = ""
     if rising_stars:
         summary_lines.append("🌟 Rising Stars & Fast Movers:")
         for item in rising_stars:
             r = item["repository"]
             growth = item.get("stars_gained", 0)
-            status = f"+{growth:,} stars" if growth > 0 else "✨ New"
-            summary_lines.append(f"  • {r.full_name} ({status}, total: {r.stars:,}) - {r.html_url}")
+            status = f"+{growth:,} stars" if growth > 0 else "New"
+            summary_lines.append(f"  - {r.full_name} ({status}, total stars: {r.stars:,}): {r.html_url}")
         summary_lines.append("")
-
-        rising_rows = "".join(
-            f"<tr>"
-            f"<td><a href='{item['repository'].html_url}'><strong>{item['repository'].full_name}</strong></a></td>"
-            f"<td style='color: #28a745; font-weight: bold;'>{'+' + str(item.get('stars_gained', 0)) + ' ⭐' if item.get('stars_gained', 0) > 0 else '✨ New'}</td>"
-            f"<td>{item['repository'].stars:,}</td>"
-            f"<td>{item['repository'].quality_score:.1f}</td>"
-            f"<td>{', '.join(item['repository'].matched_topics) or 'N/A'}</td>"
-            f"</tr>"
-            for item in rising_stars
-        )
-        rising_stars_html = f"""
-        <h3 style="color: #28a745; margin-top: 20px;">🌟 Rising Stars & Fast Movers</h3>
-        <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; border-color: #ddd; width: 100%;">
-          <thead style="background-color: #f0fff4;">
-            <tr>
-              <th>Repository</th>
-              <th>Growth</th>
-              <th>Total Stars</th>
-              <th>Quality Score</th>
-              <th>Topics</th>
-            </tr>
-          </thead>
-          <tbody>
-            {rising_rows}
-          </tbody>
-        </table>
-        """
 
     summary_lines.append("Top Repositories:")
     for idx, repo in enumerate(top_repos, 1):
         summary_lines.append(
-            f"{idx}. {repo.full_name} (Score: {repo.quality_score:.1f}, Stars: {repo.stars:,}) - {repo.html_url}"
+            f"{idx}. {repo.full_name}, Language: {repo.language or 'N/A'}, Quality Score: {repo.quality_score:.1f}, Stars: {repo.stars:,}: {repo.html_url}"
         )
 
     summary_lines.extend(
@@ -103,40 +73,56 @@ def _build_email_message(
     )
     plain_text = "\n".join(summary_lines)
 
-    html_rows = "".join(
-        f"<tr>"
-        f"<td><strong>{idx}</strong></td>"
-        f"<td><a href='{repo.html_url}'>{repo.full_name}</a></td>"
-        f"<td>{repo.quality_score:.1f}</td>"
-        f"<td>{repo.stars:,}</td>"
-        f"<td>{repo.language or 'N/A'}</td>"
-        f"</tr>"
-        for idx, repo in enumerate(top_repos, 1)
+    # --- Screen-Reader Friendly HTML Version ---
+    # Using clean lists and semantic headings instead of complex nested tables
+    
+    rising_stars_html = ""
+    if rising_stars:
+        rising_items = "".join(
+            f"<li>"
+            f"<a href='{item['repository'].html_url}'><strong>{item['repository'].full_name}</strong></a> — "
+            f"<span>{'+' + str(item.get('stars_gained', 0)) + ' stars gained' if item.get('stars_gained', 0) > 0 else 'New arrival'}</span>, "
+            f"<span>Total stars: {item['repository'].stars:,}</span>, "
+            f"<span>Quality score: {item['repository'].quality_score:.1f}</span>"
+            f"</li>"
+            for item in rising_stars
+        )
+        rising_stars_html = f"""
+        <section aria-labelledby="rising-stars-heading">
+          <h2 id="rising-stars-heading" style="color: #28a745; font-size: 1.2em; margin-top: 24px;">🌟 Rising Stars & Fast Movers</h2>
+          <ul style="padding-left: 20px; line-height: 1.8;">
+            {rising_items}
+          </ul>
+        </section>
+        """
+
+    top_repos_items = "".join(
+        f"<li>"
+        f"<a href='{repo.html_url}'><strong>{repo.full_name}</strong></a> — "
+        f"<span>Language: {repo.language or 'N/A'}</span>, "
+        f"<span>Quality score: {repo.quality_score:.1f}</span>, "
+        f"<span>Stars: {repo.stars:,}</span>"
+        f"</li>"
+        for repo in top_repos
     )
 
     html_body = f"""
     <html>
-      <body style="font-family: Arial, sans-serif; line-height: 1.5; color: #333;">
-        <h2 style="color: #0366d6;">GitHub Repository Finder Report</h2>
+      <body style="font-family: Arial, sans-serif; line-height: 1.6; color: #222; background-color: #fff; padding: 10px;">
+        <h1 style="color: #0366d6; font-size: 1.4em;">GitHub Repository Finder Report</h1>
         <p>Total unique repositories identified: <strong>{len(repositories)}</strong></p>
+        
         {rising_stars_html}
-        <h3 style="color: #0366d6; margin-top: 20px;">Top Repositories</h3>
-        <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; border-color: #ddd; width: 100%;">
-          <thead style="background-color: #f6f8fa;">
-            <tr>
-              <th>#</th>
-              <th>Repository</th>
-              <th>Quality Score</th>
-              <th>Stars</th>
-              <th>Language</th>
-            </tr>
-          </thead>
-          <tbody>
-            {html_rows}
-          </tbody>
-        </table>
-        <p style="margin-top: 20px; font-size: 0.9em; color: #666;">
-          Full report and JSON export are attached.
+        
+        <section aria-labelledby="top-repos-heading">
+          <h2 id="top-repos-heading" style="color: #0366d6; font-size: 1.2em; margin-top: 24px;">Top Repositories</h2>
+          <ol style="padding-left: 20px; line-height: 1.8;">
+            {top_repos_items}
+          </ol>
+        </section>
+        
+        <p style="margin-top: 24px; font-size: 0.95em; color: #555;">
+          Note: The full report and JSON export files are attached to this email.
         </p>
       </body>
     </html>
@@ -147,7 +133,7 @@ def _build_email_message(
     body_alternative.attach(MIMEText(html_body, "html", "utf-8"))
     msg.attach(body_alternative)
 
-    # Attach Markdown report
+    # Attachments handling remains unchanged below...
     if report_path.is_file():
         try:
             report_data = report_path.read_bytes()
@@ -162,7 +148,6 @@ def _build_email_message(
         except Exception:
             logger.exception("Failed to attach markdown report %s", report_path)
 
-    # Attach JSON data
     if json_path and json_path.is_file():
         try:
             json_data = json_path.read_bytes()
@@ -178,8 +163,7 @@ def _build_email_message(
             logger.exception("Failed to attach JSON export %s", json_path)
 
     return msg
-
-
+    
 def _send_email_sync(
     settings: Settings,
     msg: MIMEMultipart,
