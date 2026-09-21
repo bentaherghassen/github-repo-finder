@@ -1,77 +1,77 @@
-name: Daily Repository Discovery Digest
+name: Daily Repository Discovery Digest[cite: 1]
 
 on:
   schedule:
-    # Runs every day at 08:00 UTC (9:00 AM CET)
-    - cron: '0 8 * * *'
-  workflow_dispatch:
+    # Runs every Monday at 08:00 UTC (9:00 AM CET)
+    - cron: '0 8 * * 1'
+  workflow_dispatch:[cite: 1]
     inputs:
       send_email:
-        description: 'Deliver report via Gmail'
-        required: true
-        type: boolean
-        default: true
+        description: 'Deliver report via Gmail'[cite: 1]
+        required: true[cite: 1]
+        type: boolean[cite: 1]
+        default: true[cite: 1]
 
 permissions:
-  contents: write
+  contents: write[cite: 1]
 
 jobs:
   discover-and-digest:
-    name: Run Discovery & Deliver Digest
-    runs-on: ubuntu-latest
+    name: Run Discovery & Deliver Digest[cite: 1]
+    runs-on: ubuntu-latest[cite: 1]
 
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
+      - name: Check out repository[cite: 1]
+        uses: actions/checkout@v4[cite: 1]
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - name: Set up Python[cite: 1]
+        uses: actions/setup-python@v5[cite: 1]
         with:
-          python-version: '3.11'
-          cache: 'pip'
+          python-version: '3.11'[cite: 1]
+          cache: 'pip'[cite: 1]
 
-      - name: Install dependencies
+      - name: Install dependencies[cite: 1]
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           pip install pytest
           pip install -e .
 
-      - name: Run test suite verification
-        run: pytest
+      - name: Run test suite verification[cite: 1]
+        run: pytest[cite: 1]
 
-      - name: Run repository discovery workflow
+      - name: Run repository discovery workflow[cite: 1]
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
-          EMAIL_NOTIFICATIONS_ENABLED: ${{ github.event.inputs.send_email == 'false' && 'false' || 'true' }}
-          GMAIL_USER: ${{ secrets.GMAIL_USER }}
-          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
-          EMAIL_RECIPIENT: ${{ secrets.EMAIL_RECIPIENT }}
-          RESULTS_PER_TOPIC: '10'
-          REPORT_TOP_N: '5'
-          REQUEST_DELAY: '1.0'
-          LOG_LEVEL: 'INFO'
+          GITHUB_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}[cite: 1]
+          EMAIL_NOTIFICATIONS_ENABLED: ${{ github.event.inputs.send_email == 'false' && 'false' || 'true' }}[cite: 1]
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}[cite: 1]
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}[cite: 1]
+          EMAIL_RECIPIENT: ${{ secrets.EMAIL_RECIPIENT }}[cite: 1]
+          RESULTS_PER_TOPIC: '10'[cite: 1]
+          REPORT_TOP_N: '5'[cite: 1]
+          REQUEST_DELAY: '1.0'[cite: 1]
+          LOG_LEVEL: 'INFO'[cite: 1]
         run: |
           python main.py
 
-      - name: Commit and push updated report & data
+      - name: Commit and push updated report & data[cite: 1]
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -f data/repositories.json reports/latest.md
           if ! git diff --staged --quiet; then
-            git commit -m "chore(digest): update daily repository report [skip ci]"
+            git commit -m "chore(digest): update weekly repository report [skip ci]"
             git push
           else
             echo "No changes detected in repository discovery outputs."
           fi
 
-      - name: Upload reports as workflow artifact
-        uses: actions/upload-artifact@v4
-        if: always()
+      - name: Upload reports as workflow artifact[cite: 1]
+        uses: actions/upload-artifact@v4[cite: 1]
+        if: always()[cite: 1]
         with:
-          name: daily-discovery-reports
+          name: daily-discovery-reports[cite: 1]
           path: |
             data/repositories.json
             reports/latest.md
-          retention-days: 30
+          retention-days: 30[cite: 1]
