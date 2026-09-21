@@ -43,7 +43,8 @@ jobs:
       - name: Run repository discovery workflow[cite: 1]
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}[cite: 1]
-          EMAIL_NOTIFICATIONS_ENABLED: ${{ github.event.inputs.send_email == 'false' && 'false' || 'true' }}[cite: 1]
+          # Safely handles scheduled runs where github.event.inputs is empty
+          EMAIL_NOTIFICATIONS_ENABLED: ${{ github.event.inputs.send_email == 'false' && 'false' || 'true' }}
           GMAIL_USER: ${{ secrets.GMAIL_USER }}[cite: 1]
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}[cite: 1]
           EMAIL_RECIPIENT: ${{ secrets.EMAIL_RECIPIENT }}[cite: 1]
