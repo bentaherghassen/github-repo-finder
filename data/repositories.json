@@ -7,9 +7,9 @@
     "description": "The agent that grows with you",
     "html_url": "https://github.com/NousResearch/hermes-agent",
     "language": "Python",
-    "stars": 253044,
-    "forks": 54819,
-    "open_issues": 48056,
+    "stars": 255179,
+    "forks": 55519,
+    "open_issues": 49987,
     "topics": [
       "ai",
       "ai-agent",
@@ -26,8 +26,8 @@
       "openai"
     ],
     "created_at": "2025-07-22T22:22:28Z",
-    "updated_at": "2026-10-12T17:02:59Z",
-    "pushed_at": "2026-10-12T16:42:18Z",
+    "updated_at": "2026-10-19T14:58:47Z",
+    "pushed_at": "2026-10-19T14:39:29Z",
     "default_branch": "main",
     "archived": false,
     "fork": false,
@@ -35,7 +35,7 @@
     "matched_topics": [
       "AI agents"
     ],
-    "quality_score": 85.72
+    "quality_score": 85.73
   },
   {
     "id": 34526884,
@@ -45,9 +45,9 @@
     "description": "An enterprise-class UI design language and React UI library",
     "html_url": "https://github.com/ant-design/ant-design",
     "language": "TypeScript",
-    "stars": 99744,
-    "forks": 54665,
-    "open_issues": 1116,
+    "stars": 99808,
+    "forks": 54660,
+    "open_issues": 1113,
     "topics": [
       "ant-design",
       "antd",
@@ -58,8 +58,8 @@
       "ui-library"
     ],
     "created_at": "2015-04-24T15:37:24Z",
-    "updated_at": "2026-10-12T17:03:09Z",
-    "pushed_at": "2026-10-12T11:50:17Z",
+    "updated_at": "2026-10-19T14:34:02Z",
+    "pushed_at": "2026-10-19T08:56:47Z",
     "default_branch": "master",
     "archived": false,
     "fork": false,
@@ -77,9 +77,9 @@
     "description": "The library for web and native user interfaces.",
     "html_url": "https://github.com/react/react",
     "language": "JavaScript",
-    "stars": 250921,
-    "forks": 51478,
-    "open_issues": 1427,
+    "stars": 251379,
+    "forks": 51542,
+    "open_issues": 1463,
     "topics": [
       "declarative",
       "frontend",
@@ -89,8 +89,8 @@
       "ui"
     ],
     "created_at": "2013-05-24T16:15:54Z",
-    "updated_at": "2026-10-12T17:02:38Z",
-    "pushed_at": "2026-10-12T14:02:51Z",
+    "updated_at": "2026-10-19T15:02:34Z",
+    "pushed_at": "2026-10-19T14:57:00Z",
     "default_branch": "main",
     "archived": false,
     "fork": false,
@@ -98,7 +98,7 @@
     "matched_topics": [
       "React"
     ],
-    "quality_score": 85.63
+    "quality_score": 85.64
   },
   {
     "id": 28457823,
@@ -108,9 +108,9 @@
     "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
     "html_url": "https://github.com/freeCodeCamp/freeCodeCamp",
     "language": "TypeScript",
-    "stars": 456923,
-    "forks": 49051,
-    "open_issues": 223,
+    "stars": 457494,
+    "forks": 49714,
+    "open_issues": 182,
     "topics": [
       "careers",
       "certification",
@@ -129,8 +129,8 @@
       "teachers"
     ],
     "created_at": "2014-12-24T17:49:19Z",
-    "updated_at": "2026-10-12T16:24:38Z",
-    "pushed_at": "2026-10-12T10:23:32Z",
+    "updated_at": "2026-10-19T14:58:06Z",
+    "pushed_at": "2026-10-19T14:50:44Z",
     "default_branch": "main",
     "archived": false,
     "fork": false,
@@ -138,7 +138,7 @@
     "matched_topics": [
       "React"
     ],
-    "quality_score": 85.57
+    "quality_score": 85.59
   },
   {
     "id": 614765452,
@@ -148,9 +148,9 @@
     "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
     "html_url": "https://github.com/Significant-Gravitas/AutoGPT",
     "language": "Python",
-    "stars": 187533,
-    "forks": 45946,
-    "open_issues": 705,
+    "stars": 187656,
+    "forks": 45914,
+    "open_issues": 721,
     "topics": [
       "agentic-ai",
       "agents",
@@ -165,8 +165,8 @@
       "python"
     ],
     "created_at": "2023-03-16T09:21:07Z",
-    "updated_at": "2026-10-12T16:55:44Z",
-    "pushed_at": "2026-10-12T16:14:54Z",
+    "updated_at": "2026-10-19T14:58:31Z",
+    "pushed_at": "2026-10-19T15:02:15Z",
     "default_branch": "master",
     "archived": false,
     "fork": false,
@@ -177,6 +177,45 @@
     "quality_score": 85.49
   },
   {
+    "id": 70107786,
+    "full_name": "vercel/next.js",
+    "name": "next.js",
+    "owner": "vercel",
+    "description": "The React Framework",
+    "html_url": "https://github.com/vercel/next.js",
+    "language": "JavaScript",
+    "stars": 143093,
+    "forks": 35272,
+    "open_issues": 3702,
+    "topics": [
+      "blog",
+      "browser",
+      "compiler",
+      "components",
+      "hybrid",
+      "nextjs",
+      "node",
+      "react",
+      "server-rendering",
+      "ssg",
+      "static",
+      "static-site-generator",
+      "universal",
+      "vercel"
+    ],
+    "created_at": "2016-10-05T23:32:51Z",
+    "updated_at": "2026-10-19T14:43:33Z",
+    "pushed_at": "2026-10-19T14:12:24Z",
+    "default_branch": "canary",
+    "archived": false,
+    "fork": false,
+    "search_score": 1.0,
+    "matched_topics": [
+      "React"
+    ],
+    "quality_score": 85.14
+  },
+  {
     "id": 943398999,
     "full_name": "x1xhlol/system-prompts-and-models-of-ai-tools",
     "name": "system-prompts-and-models-of-ai-tools",
@@ -184,8 +223,8 @@
     "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
     "html_url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
     "language": null,
-    "stars": 143960,
-    "forks": 34760,
+    "stars": 144090,
+    "forks": 34727,
     "open_issues": 162,
     "topics": [
       "ai",
@@ -210,7 +249,7 @@
       "windsurf-ai"
     ],
     "created_at": "2025-03-05T16:38:29Z",
-    "updated_at": "2026-10-12T17:03:29Z",
+    "updated_at": "2026-10-19T14:46:51Z",
     "pushed_at": "2026-10-12T15:19:01Z",
     "default_branch": "main",
     "archived": false,
@@ -219,46 +258,7 @@
     "matched_topics": [
       "AI agents"
     ],
-    "quality_score": 85.12
-  },
-  {
-    "id": 70107786,
-    "full_name": "vercel/next.js",
-    "name": "next.js",
-    "owner": "vercel",
-    "description": "The React Framework",
-    "html_url": "https://github.com/vercel/next.js",
-    "language": "JavaScript",
-    "stars": 143148,
-    "forks": 34679,
-    "open_issues": 3641,
-    "topics": [
-      "blog",
-      "browser",
-      "compiler",
-      "components",
-      "hybrid",
-      "nextjs",
-      "node",
-      "react",
-      "server-rendering",
-      "ssg",
-      "static",
-      "static-site-generator",
-      "universal",
-      "vercel"
-    ],
-    "created_at": "2016-10-05T23:32:51Z",
-    "updated_at": "2026-10-12T16:34:23Z",
-    "pushed_at": "2026-10-12T16:35:52Z",
-    "default_branch": "canary",
-    "archived": false,
-    "fork": false,
-    "search_score": 1.0,
-    "matched_topics": [
-      "React"
-    ],
-    "quality_score": 85.12
+    "quality_score": 85.07
   },
   {
     "id": 23083156,
@@ -268,9 +268,9 @@
     "description": "Material UI: Comprehensive React component library that implements Google's Material Design. Free forever.",
     "html_url": "https://github.com/mui/material-ui",
     "language": "JavaScript",
-    "stars": 99195,
-    "forks": 32506,
-    "open_issues": 1512,
+    "stars": 99243,
+    "forks": 32494,
+    "open_issues": 1509,
     "topics": [
       "design-system",
       "material-design",
@@ -279,8 +279,8 @@
       "react-components"
     ],
     "created_at": "2014-08-18T19:11:54Z",
-    "updated_at": "2026-10-12T16:55:00Z",
-    "pushed_at": "2026-10-12T16:24:55Z",
+    "updated_at": "2026-10-19T14:06:00Z",
+    "pushed_at": "2026-10-19T15:02:10Z",
     "default_branch": "master",
     "archived": false,
     "fork": false,
@@ -288,7 +288,7 @@
     "matched_topics": [
       "React"
     ],
-    "quality_score": 85.0
+    "quality_score": 85.01
   },
   {
     "id": 12888993,
@@ -298,9 +298,9 @@
     "description": ":house_with_garden: Open source home automation that puts local control and privacy first.",
     "html_url": "https://github.com/home-assistant/core",
     "language": "Python",
-    "stars": 91411,
-    "forks": 38887,
-    "open_issues": 3325,
+    "stars": 91595,
+    "forks": 38982,
+    "open_issues": 3403,
     "topics": [
       "asyncio",
       "hacktoberfest",
@@ -312,8 +312,8 @@
       "raspberry-pi"
     ],
     "created_at": "2013-09-17T07:29:48Z",
-    "updated_at": "2026-10-12T16:59:20Z",
-    "pushed_at": "2026-10-12T16:50:05Z",
+    "updated_at": "2026-10-19T15:01:41Z",
+    "pushed_at": "2026-10-19T15:01:54Z",
     "default_branch": "dev",
     "archived": false,
     "fork": false,
@@ -321,7 +321,7 @@
     "matched_topics": [
       "Python automation"
     ],
-    "quality_score": 84.92
+    "quality_score": 84.93
   },
   {
     "id": 291137,
@@ -331,9 +331,9 @@
     "description": "🙃   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",
     "html_url": "https://github.com/ohmyzsh/ohmyzsh",
     "language": "Shell",
-    "stars": 190102,
-    "forks": 29153,
-    "open_issues": 289,
+    "stars": 190071,
+    "forks": 29766,
+    "open_issues": 300,
     "topics": [
       "cli",
       "cli-app",
@@ -352,8 +352,8 @@
       "zsh-configuration"
     ],
     "created_at": "2009-08-28T18:15:37Z",
-    "updated_at": "2026-10-12T16:49:45Z",
-    "pushed_at": "2026-10-12T10:55:11Z",
+    "updated_at": "2026-10-19T13:58:12Z",
+    "pushed_at": "2026-10-18T12:53:51Z",
     "default_branch": "master",
     "archived": false,
     "fork": false,
@@ -361,7 +361,7 @@
     "matched_topics": [
       "Docker"
     ],
-    "quality_score": 84.89
+    "quality_score": 84.91
   },
   {
     "id": 4164482,
@@ -371,9 +371,9 @@
     "description": "The Web framework for perfectionists with deadlines.",
     "html_url": "https://github.com/django/django",
     "language": "Python",
-    "stars": 91397,
-    "forks": 37007,
-    "open_issues": 539,
+    "stars": 91523,
+    "forks": 37622,
+    "open_issues": 542,
     "topics": [
       "apps",
       "django",
@@ -386,8 +386,8 @@
       "web"
     ],
     "created_at": "2012-04-28T02:47:18Z",
-    "updated_at": "2026-10-12T15:49:11Z",
-    "pushed_at": "2026-10-12T15:23:19Z",
+    "updated_at": "2026-10-19T14:22:10Z",
+    "pushed_at": "2026-10-19T09:46:16Z",
     "default_branch": "main",
     "archived": false,
     "fork": false,
@@ -395,7 +395,7 @@
     "matched_topics": [
       "Django"
     ],
-    "quality_score": 84.85
+    "quality_score": 84.88
   },
   {
     "id": 1073224795,
@@ -405,9 +405,9 @@
     "description": "An agentic skills framework & software development methodology that works.",
     "html_url": "https://github.com/obra/superpowers",
     "language": "Shell",
-    "stars": 298077,
-    "forks": 26637,
-    "open_issues": 334,
+    "stars": 301966,
+    "forks": 26963,
+    "open_issues": 383,
     "topics": [
       "ai",
       "brainstorming",
@@ -419,7 +419,7 @@
       "superpowers"
     ],
     "created_at": "2025-10-09T19:45:18Z",
-    "updated_at": "2026-10-12T17:01:22Z",
+    "updated_at": "2026-10-19T14:57:56Z",
     "pushed_at": "2026-10-10T03:03:30Z",
     "default_branch": "main",
     "archived": false,
@@ -428,7 +428,31 @@
     "matched_topics": [
       "AI agents"
     ],
-    "quality_score": 84.76
+    "quality_score": 84.73
+  },
+  {
+    "id": 1075372545,
+    "full_name": "msitarzewski/agency-agents",
+    "name": "agency-agents",
+    "owner": "msitarzewski",
+    "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+    "html_url": "https://github.com/msitarzewski/agency-agents",
+    "language": "Shell",
+    "stars": 161540,
+    "forks": 26138,
+    "open_issues": 237,
+    "topics": [],
+    "created_at": "2025-10-13T12:12:29Z",
+    "updated_at": "2026-10-19T15:01:35Z",
+    "pushed_at": "2026-10-15T05:33:33Z",
+    "default_branch": "main",
+    "archived": false,
+    "fork": false,
+    "search_score": 1.0,
+    "matched_topics": [
+      "AI agents"
+    ],
+    "quality_score": 84.72
   },
   {
     "id": 29028775,
@@ -438,9 +462,9 @@
     "description": "A framework for building native applications using React",
     "html_url": "https://github.com/react/react-native",
     "language": "C++",
-    "stars": 126642,
-    "forks": 25309,
-    "open_issues": 1164,
+    "stars": 126718,
+    "forks": 25343,
+    "open_issues": 1198,
     "topics": [
       "android",
       "app-framework",
@@ -452,8 +476,8 @@
       "react-native"
     ],
     "created_at": "2015-01-09T18:10:16Z",
-    "updated_at": "2026-10-12T16:20:20Z",
-    "pushed_at": "2026-10-12T14:38:47Z",
+    "updated_at": "2026-10-19T15:03:01Z",
+    "pushed_at": "2026-10-19T15:02:12Z",
     "default_branch": "main",
     "archived": false,
     "fork": false,
@@ -464,40 +488,16 @@
     "quality_score": 84.71
   },
   {
-    "id": 1075372545,
-    "full_name": "msitarzewski/agency-agents",
-    "name": "agency-agents",
-    "owner": "msitarzewski",
-    "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
-    "html_url": "https://github.com/msitarzewski/agency-agents",
-    "language": "Shell",
-    "stars": 159376,
-    "forks": 25749,
-    "open_issues": 224,
-    "topics": [],
-    "created_at": "2025-10-13T12:12:29Z",
-    "updated_at": "2026-10-12T16:56:11Z",
-    "pushed_at": "2026-10-07T16:45:46Z",
-    "default_branch": "main",
-    "archived": false,
-    "fork": false,
-    "search_score": 1.0,
-    "matched_topics": [
-      "AI agents"
-    ],
-    "quality_score": 84.7
-  },
-  {
     "id": 626805178,
     "full_name": "langgenius/dify",
     "name": "dify",
     "owner": "langgenius",
     "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
     "html_url": "https://github.com/langgenius/dify",
-    "language": "TypeScript",
-    "stars": 158254,
-    "forks": 25011,
-    "open_issues": 1108,
+    "language": "Python",
+    "stars": 158888,
+    "forks": 25113,
+    "open_issues": 1139,
     "topics": [
       "agent",
       "agentic-ai",
@@ -520,8 +520,8 @@
       "workflow"
     ],
     "created_at": "2023-04-12T07:40:24Z",
-    "updated_at": "2026-10-12T17:01:17Z",
-    "pushed_at": "2026-10-12T16:56:44Z",
+    "updated_at": "2026-10-19T14:55:34Z",
+    "pushed_at": "2026-10-19T15:00:03Z",
     "default_branch": "main",
     "archived": false,
     "fork": false,
@@ -530,7 +530,7 @@
       "AI agents",
       "Python automation"
     ],
-    "quality_score": 84.69
+    "quality_score": 84.7
   },
   {
     "id": 552661142,
@@ -540,9 +540,9 @@
     "description": "The agent engineering platform.",
     "html_url": "https://github.com/langchain-ai/langchain",
     "language": "Python",
-    "stars": 147694,
-    "forks": 24769,
-    "open_issues": 640,
+    "stars": 148081,
+    "forks": 24850,
+    "open_issues": 657,
     "topics": [
       "agents",
       "ai",
@@ -566,8 +566,8 @@
       "typescript"
     ],
     "created_at": "2022-10-17T02:58:36Z",
-    "updated_at": "2026-10-12T17:00:56Z",
-    "pushed_at": "2026-10-12T15:39:24Z",
+    "updated_at": "2026-10-19T15:02:52Z",
+    "pushed_at": "2026-10-19T14:12:50Z",
     "default_branch": "master",
     "archived": false,
     "fork": false,
@@ -575,7 +575,7 @@
     "matched_topics": [
       "AI agents"
     ],
-    "quality_score": 84.68
+    "quality_score": 84.69
   },
   {
     "id": 14098069,
@@ -585,8 +585,8 @@
     "description": ":books: 免费的计算机编程类中文书籍，欢迎投稿",
     "html_url": "https://github.com/justjavac/free-programming-books-zh_CN",
     "language": null,
-    "stars": 119155,
-    "forks": 28246,
+    "stars": 119271,
+    "forks": 28250,
     "open_issues": 6,
     "topics": [
       "android",
@@ -605,7 +605,7 @@
       "vue"
     ],
     "created_at": "2013-11-04T01:59:19Z",
-    "updated_at": "2026-10-12T16:18:01Z",
+    "updated_at": "2026-10-19T11:36:01Z",
     "pushed_at": "2026-07-29T00:39:06Z",
     "default_branch": "main",
     "archived": false,
@@ -614,7 +614,7 @@
     "matched_topics": [
       "React"
     ],
-    "quality_score": 84.33
+    "quality_score": 84.29
   },
   {
     "id": 214587193,
@@ -624,9 +624,9 @@
     "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
     "html_url": "https://github.com/supabase/supabase",
     "language": "TypeScript",
-    "stars": 111408,
-    "forks": 16573,
-    "open_issues": 1145,
+    "stars": 111764,
+    "forks": 17214,
+    "open_issues": 1167,
     "topics": [
       "ai",
       "alternative",
@@ -649,8 +649,8 @@
       "websockets"
     ],
     "created_at": "2019-10-12T05:56:49Z",
-    "updated_at": "2026-10-12T17:02:38Z",
-    "pushed_at": "2026-10-12T16:37:45Z",
+    "updated_at": "2026-10-19T14:29:40Z",
+    "pushed_at": "2026-10-19T14:58:09Z",
     "default_branch": "master",
     "archived": false,
     "fork": false,
@@ -658,7 +658,7 @@
     "matched_topics": [
       "PostgreSQL"
     ],
-    "quality_score": 84.16
+    "quality_score": 84.21
   },
   {
     "id": 127988011,
@@ -668,9 +668,9 @@
     "description": "mall项目是一套电商系统，包括前台商城系统及后台管理系统，基于Spring Boot+MyBatis实现，采用Docker容器化部署。 前台商城系统包含首页门户、商品推荐、商品搜索、商品展示、购物车、订单流程、会员中心、客户服务、帮助中心等模块。 后台管理系统包含商品管理、订单管理、会员管理、促销管理、运营管理、内容管理、统计报表、财务管理、权限管理、设置等模块。",
     "html_url": "https://github.com/macrozheng/mall",
     "language": "Java",
-    "stars": 84881,
+    "stars": 84933,
     "forks": 29835,
-    "open_issues": 48,
+    "open_issues": 16,
     "topics": [
       "docker",
       "elasticsearch",
@@ -690,7 +690,7 @@
       "swagger-ui"
     ],
     "created_at": "2018-04-04T01:11:44Z",
-    "updated_at": "2026-10-12T13:05:05Z",
+    "updated_at": "2026-10-19T14:28:12Z",
     "pushed_at": "2026-09-15T02:34:44Z",
     "default_branch": "master",
     "archived": false,
@@ -699,7 +699,7 @@
     "matched_topics": [
       "Docker"
     ],
-    "quality_score": 84.09
+    "quality_score": 84.05
   },
   {
     "id": 1106996539,
@@ -709,8 +709,8 @@
     "description": "An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.",
     "html_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
     "language": "Python",
-    "stars": 135094,
-    "forks": 14358,
+    "stars": 137501,
+    "forks": 14606,
     "open_issues": 91,
     "topics": [
       "ai-skills",
@@ -734,8 +734,8 @@
       "windsurf-ai"
     ],
     "created_at": "2025-11-30T11:36:31Z",
-    "updated_at": "2026-10-12T16:55:25Z",
-    "pushed_at": "2026-10-12T11:08:03Z",
+    "updated_at": "2026-10-19T15:03:00Z",
+    "pushed_at": "2026-10-15T02:04:34Z",
     "default_branch": "main",
     "archived": false,
     "fork": false,
@@ -743,7 +743,7 @@
     "matched_topics": [
       "React"
     ],
-    "quality_score": 83.97
+    "quality_score": 83.96
   },
   {
     "id": 585146387,
@@ -753,9 +753,9 @@
     "description": "Composable, accessible components with thoughtful defaults. Build your own component library with code you can customize, extend, and make your own.",
     "html_url": "https://github.com/shadcn-ui/ui",
     "language": "TypeScript",
-    "stars": 125414,
-    "forks": 12976,
-    "open_issues": 1784,
+    "stars": 125943,
+    "forks": 13629,
+    "open_issues": 1774,
     "topics": [
       "ai",
       "base-ui",
@@ -776,8 +776,8 @@
       "vite"
     ],
     "created_at": "2023-01-04T12:43:27Z",
-    "updated_at": "2026-10-12T17:01:05Z",
-    "pushed_at": "2026-10-12T09:08:25Z",
+    "updated_at": "2026-10-19T14:47:07Z",
+    "pushed_at": "2026-10-19T09:28:57Z",
     "default_branch": "main",
     "archived": false,
     "fork": false,
@@ -786,7 +786,7 @@
       "React accessibility",
       "React"
     ],
-    "quality_score": 83.84
+    "quality_score": 83.9
   },
   {
     "id": 599320067,
@@ -796,9 +796,9 @@
     "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
     "html_url": "https://github.com/langflow-ai/langflow",
     "language": "Python",
-    "stars": 155542,
-    "forks": 10242,
-    "open_issues": 1152,
+    "stars": 155835,
+    "forks": 10260,
+    "open_issues": 1156,
     "topics": [
       "agents",
       "chatgpt",
@@ -808,8 +808,8 @@
       "react-flow"
     ],
     "created_at": "2023-02-08T22:28:03Z",
-    "updated_at": "2026-10-12T17:01:42Z",
-    "pushed_at": "2026-10-12T16:44:34Z",
+    "updated_at": "2026-10-19T14:54:27Z",
+    "pushed_at": "2026-10-19T14:45:33Z",
     "default_branch": "main",
     "archived": false,
     "fork": false,
@@ -827,9 +827,9 @@
     "description": "Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥",
     "html_url": "https://github.com/firecrawl/firecrawl",
     "language": "TypeScript",
-    "stars": 190754,
-    "forks": 10127,
-    "open_issues": 578,
+    "stars": 192991,
+    "forks": 10191,
+    "open_issues": 628,
     "topics": [
       "ai",
       "ai-agents",
@@ -852,8 +852,8 @@
       "webscraping"
     ],
     "created_at": "2024-04-15T21:02:29Z",
-    "updated_at": "2026-10-12T17:03:17Z",
-    "pushed_at": "2026-10-12T17:03:34Z",
+    "updated_at": "2026-10-19T14:57:42Z",
+    "pushed_at": "2026-10-19T14:24:35Z",
     "default_branch": "main",
     "archived": false,
     "fork": false,
@@ -871,9 +871,9 @@
     "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
     "html_url": "https://github.com/fastapi/fastapi",
     "language": "Python",
-    "stars": 103052,
-    "forks": 10023,
-    "open_issues": 88,
+    "stars": 103244,
+    "forks": 10059,
+    "open_issues": 72,
     "topics": [
       "api",
       "async",
@@ -897,8 +897,8 @@
       "web"
     ],
     "created_at": "2018-12-08T08:21:47Z",
-    "updated_at": "2026-10-12T16:09:00Z",
-    "pushed_at": "2026-10-08T12:29:28Z",
+    "updated_at": "2026-10-19T14:21:36Z",
+    "pushed_at": "2026-10-19T12:40:34Z",
     "default_branch": "master",
     "archived": false,
     "fork": false,
@@ -906,7 +906,7 @@
     "matched_topics": [
       "FastAPI"
     ],
-    "quality_score": 83.47
+    "quality_score": 83.51
   },
   {
     "id": 594155488,
@@ -916,9 +916,9 @@
     "description": "#1 PDF Application on GitHub that lets you edit PDFs on any device anywhere",
     "html_url": "https://github.com/Stirling-Tools/Stirling-PDF",
     "language": "TypeScript",
-    "stars": 94065,
-    "forks": 11137,
-    "open_issues": 548,
+    "stars": 94532,
+    "forks": 11786,
+    "open_issues": 549,
     "topics": [
       "docker",
       "hacktoberfest",
@@ -935,8 +935,8 @@
       "self-hosted"
     ],
     "created_at": "2023-01-27T18:22:42Z",
-    "updated_at": "2026-10-12T17:01:08Z",
-    "pushed_at": "2026-10-12T16:47:54Z",
+    "updated_at": "2026-10-19T14:54:25Z",
+    "pushed_at": "2026-10-19T14:58:52Z",
     "default_branch": "main",
     "archived": false,
     "fork": false,
@@ -944,34 +944,7 @@
     "matched_topics": [
       "Docker"
     ],
-    "quality_score": 83.4
-  },
-  {
-    "id": 3638964,
-    "full_name": "ansible/ansible",
-    "name": "ansible",
-    "owner": "ansible",
-    "description": "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain. Automate everything from code deployment to network configuration to cloud management, in a language that approaches plain English, using SSH, with no agents to install on remote systems. https://docs.ansible.com.",
-    "html_url": "https://github.com/ansible/ansible",
-    "language": "Python",
-    "stars": 70963,
-    "forks": 24351,
-    "open_issues": 863,
-    "topics": [
-      "ansible",
-      "python"
-    ],
-    "created_at": "2012-03-06T14:58:02Z",
-    "updated_at": "2026-10-12T16:59:58Z",
-    "pushed_at": "2026-10-12T14:24:49Z",
-    "default_branch": "devel",
-    "archived": false,
-    "fork": false,
-    "search_score": 1.0,
-    "matched_topics": [
-      "Python automation"
-    ],
-    "quality_score": 83.32
+    "quality_score": 83.49
   },
   {
     "id": 1266797999,
@@ -981,9 +954,9 @@
     "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
     "html_url": "https://github.com/DietrichGebert/ponytail",
     "language": "JavaScript",
-    "stars": 161699,
-    "forks": 8718,
-    "open_issues": 54,
+    "stars": 167683,
+    "forks": 9108,
+    "open_issues": 34,
     "topics": [
       "agent-skills",
       "ai-agents",
@@ -997,8 +970,8 @@
       "yagni"
     ],
     "created_at": "2026-06-12T00:52:37Z",
-    "updated_at": "2026-10-12T17:02:08Z",
-    "pushed_at": "2026-10-10T04:19:53Z",
+    "updated_at": "2026-10-19T15:02:40Z",
+    "pushed_at": "2026-10-18T01:55:14Z",
     "default_branch": "main",
     "archived": false,
     "fork": false,
@@ -1006,7 +979,76 @@
     "matched_topics": [
       "AI agents"
     ],
+    "quality_score": 83.37
+  },
+  {
+    "id": 3638964,
+    "full_name": "ansible/ansible",
+    "name": "ansible",
+    "owner": "ansible",
+    "description": "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain. Automate everything from code deployment to network configuration to cloud management, in a language that approaches plain English, using SSH, with no agents to install on remote systems. https://docs.ansible.com.",
+    "html_url": "https://github.com/ansible/ansible",
+    "language": "Python",
+    "stars": 71019,
+    "forks": 24375,
+    "open_issues": 863,
+    "topics": [
+      "ansible",
+      "python"
+    ],
+    "created_at": "2012-03-06T14:58:02Z",
+    "updated_at": "2026-10-19T13:49:56Z",
+    "pushed_at": "2026-10-16T22:29:23Z",
+    "default_branch": "devel",
+    "archived": false,
+    "fork": false,
+    "search_score": 1.0,
+    "matched_topics": [
+      "Python automation"
+    ],
     "quality_score": 83.3
+  },
+  {
+    "id": 1165277268,
+    "full_name": "Panniantong/Agent-Reach",
+    "name": "Agent-Reach",
+    "owner": "Panniantong",
+    "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+    "html_url": "https://github.com/Panniantong/Agent-Reach",
+    "language": "Python",
+    "stars": 99445,
+    "forks": 8783,
+    "open_issues": 230,
+    "topics": [
+      "agent-infrastructure",
+      "ai-agent",
+      "ai-search",
+      "automation",
+      "bilibili",
+      "claude-code",
+      "cli",
+      "cursor",
+      "free-api",
+      "llm-tools",
+      "mcp",
+      "python",
+      "reddit-scraper",
+      "twitter-scraper",
+      "web-scraper",
+      "xiaohongshu",
+      "youtube-transcript"
+    ],
+    "created_at": "2026-02-24T02:10:24Z",
+    "updated_at": "2026-10-19T15:01:36Z",
+    "pushed_at": "2026-10-15T11:34:42Z",
+    "default_branch": "main",
+    "archived": false,
+    "fork": false,
+    "search_score": 1.0,
+    "matched_topics": [
+      "Python automation"
+    ],
+    "quality_score": 83.28
   },
   {
     "id": 39464018,
@@ -1016,9 +1058,9 @@
     "description": "Apache Superset is a Data Visualization and Data Exploration Platform",
     "html_url": "https://github.com/apache/superset",
     "language": "Python",
-    "stars": 75114,
-    "forks": 18458,
-    "open_issues": 552,
+    "stars": 75212,
+    "forks": 18493,
+    "open_issues": 599,
     "topics": [
       "analytics",
       "apache",
@@ -1040,8 +1082,8 @@
       "superset"
     ],
     "created_at": "2015-07-21T18:55:34Z",
-    "updated_at": "2026-10-12T15:01:33Z",
-    "pushed_at": "2026-10-12T16:49:32Z",
+    "updated_at": "2026-10-19T14:53:33Z",
+    "pushed_at": "2026-10-19T14:53:25Z",
     "default_branch": "master",
     "archived": false,
     "fork": false,
@@ -1049,49 +1091,7 @@
     "matched_topics": [
       "Flask"
     ],
-    "quality_score": 83.18
-  },
-  {
-    "id": 1165277268,
-    "full_name": "Panniantong/Agent-Reach",
-    "name": "Agent-Reach",
-    "owner": "Panniantong",
-    "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-    "html_url": "https://github.com/Panniantong/Agent-Reach",
-    "language": "Python",
-    "stars": 96490,
-    "forks": 8447,
-    "open_issues": 208,
-    "topics": [
-      "agent-infrastructure",
-      "ai-agent",
-      "ai-search",
-      "automation",
-      "bilibili",
-      "claude-code",
-      "cli",
-      "cursor",
-      "free-api",
-      "llm-tools",
-      "mcp",
-      "python",
-      "reddit-scraper",
-      "twitter-scraper",
-      "web-scraper",
-      "xiaohongshu",
-      "youtube-transcript"
-    ],
-    "created_at": "2026-02-24T02:10:24Z",
-    "updated_at": "2026-10-12T16:55:19Z",
-    "pushed_at": "2026-10-08T08:31:08Z",
-    "default_branch": "main",
-    "archived": false,
-    "fork": false,
-    "search_score": 1.0,
-    "matched_topics": [
-      "Python automation"
-    ],
-    "quality_score": 83.11
+    "quality_score": 83.19
   },
   {
     "id": 7691631,
@@ -1101,9 +1101,9 @@
     "description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems",
     "html_url": "https://github.com/moby/moby",
     "language": "Go",
-    "stars": 72178,
-    "forks": 19238,
-    "open_issues": 3939,
+    "stars": 72205,
+    "forks": 19248,
+    "open_issues": 3943,
     "topics": [
       "containers",
       "docker",
@@ -1111,8 +1111,8 @@
       "golang"
     ],
     "created_at": "2013-01-18T18:10:57Z",
-    "updated_at": "2026-10-12T16:56:52Z",
-    "pushed_at": "2026-10-12T16:14:15Z",
+    "updated_at": "2026-10-19T08:39:08Z",
+    "pushed_at": "2026-10-16T14:15:57Z",
     "default_branch": "master",
     "archived": false,
     "fork": false,
@@ -1120,39 +1120,7 @@
     "matched_topics": [
       "Docker"
     ],
-    "quality_score": 83.08
-  },
-  {
-    "id": 596892,
-    "full_name": "pallets/flask",
-    "name": "flask",
-    "owner": "pallets",
-    "description": "The Python micro framework for building web applications.",
-    "html_url": "https://github.com/pallets/flask",
-    "language": "Python",
-    "stars": 75017,
-    "forks": 17064,
-    "open_issues": 4,
-    "topics": [
-      "flask",
-      "jinja",
-      "pallets",
-      "python",
-      "web-framework",
-      "werkzeug",
-      "wsgi"
-    ],
-    "created_at": "2010-04-06T11:11:59Z",
-    "updated_at": "2026-10-12T16:58:22Z",
-    "pushed_at": "2026-10-07T14:02:59Z",
-    "default_branch": "main",
-    "archived": false,
-    "fork": false,
-    "search_score": 1.0,
-    "matched_topics": [
-      "Flask"
-    ],
-    "quality_score": 83.04
+    "quality_score": 83.06
   },
   {
     "id": 382496361,
@@ -1162,9 +1130,9 @@
     "description": "A fancy self-hosted monitoring tool",
     "html_url": "https://github.com/louislam/uptime-kuma",
     "language": "JavaScript",
-    "stars": 92365,
-    "forks": 8547,
-    "open_issues": 833,
+    "stars": 92637,
+    "forks": 8570,
+    "open_issues": 846,
     "topics": [
       "docker",
       "monitor",
@@ -1180,8 +1148,8 @@
       "websocket"
     ],
     "created_at": "2021-07-03T01:02:42Z",
-    "updated_at": "2026-10-12T17:00:31Z",
-    "pushed_at": "2026-10-12T00:07:39Z",
+    "updated_at": "2026-10-19T14:35:24Z",
+    "pushed_at": "2026-10-19T14:39:31Z",
     "default_branch": "master",
     "archived": false,
     "fork": false,
@@ -1189,19 +1157,51 @@
     "matched_topics": [
       "Docker"
     ],
-    "quality_score": 82.98
+    "quality_score": 83.0
+  },
+  {
+    "id": 596892,
+    "full_name": "pallets/flask",
+    "name": "flask",
+    "owner": "pallets",
+    "description": "The Python micro framework for building web applications.",
+    "html_url": "https://github.com/pallets/flask",
+    "language": "Python",
+    "stars": 74963,
+    "forks": 17104,
+    "open_issues": 4,
+    "topics": [
+      "flask",
+      "jinja",
+      "pallets",
+      "python",
+      "web-framework",
+      "werkzeug",
+      "wsgi"
+    ],
+    "created_at": "2010-04-06T11:11:59Z",
+    "updated_at": "2026-10-19T12:58:30Z",
+    "pushed_at": "2026-10-07T14:02:59Z",
+    "default_branch": "main",
+    "archived": false,
+    "fork": false,
+    "search_score": 1.0,
+    "matched_topics": [
+      "Flask"
+    ],
+    "quality_score": 82.99
   },
   {
     "id": 872119017,
     "full_name": "D4Vinci/Scrapling",
     "name": "Scrapling",
     "owner": "D4Vinci",
-    "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
+    "description": "🕷️ A Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
     "html_url": "https://github.com/D4Vinci/Scrapling",
     "language": "Python",
-    "stars": 86979,
-    "forks": 8911,
-    "open_issues": 18,
+    "stars": 88620,
+    "forks": 9143,
+    "open_issues": 8,
     "topics": [
       "ai",
       "ai-scraping",
@@ -1225,8 +1225,8 @@
       "xpath"
     ],
     "created_at": "2024-10-13T20:29:53Z",
-    "updated_at": "2026-10-12T16:53:01Z",
-    "pushed_at": "2026-10-11T12:12:09Z",
+    "updated_at": "2026-10-19T15:00:29Z",
+    "pushed_at": "2026-10-18T17:41:44Z",
     "default_branch": "main",
     "archived": false,
     "fork": false,
@@ -1234,7 +1234,7 @@
     "matched_topics": [
       "Python automation"
     ],
-    "quality_score": 82.8
+    "quality_score": 82.91
   },
   {
     "id": 222751131,
@@ -1244,9 +1244,9 @@
     "description": "The 30 Days of Python programming challenge is a step-by-step guide to learn the Python programming language in 30 days. This challenge may take more than 100 days. Follow your own pace. These videos may help too: https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw",
     "html_url": "https://github.com/Asabeneh/30-Days-Of-Python",
     "language": "Python",
-    "stars": 76049,
-    "forks": 13787,
-    "open_issues": 227,
+    "stars": 76597,
+    "forks": 13850,
+    "open_issues": 229,
     "topics": [
       "30-days-of-python",
       "data",
@@ -1265,7 +1265,7 @@
       "python3"
     ],
     "created_at": "2019-11-19T17:24:16Z",
-    "updated_at": "2026-10-12T16:47:00Z",
+    "updated_at": "2026-10-19T14:59:18Z",
     "pushed_at": "2026-09-30T08:10:34Z",
     "default_branch": "master",
     "archived": false,
@@ -1274,31 +1274,7 @@
     "matched_topics": [
       "Flask"
     ],
-    "quality_score": 82.76
-  },
-  {
-    "id": 52631841,
-    "full_name": "realworld-apps/realworld",
-    "name": "realworld",
-    "owner": "realworld-apps",
-    "description": "\"The mother of all demo apps\" — Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more",
-    "html_url": "https://github.com/realworld-apps/realworld",
-    "language": "TypeScript",
-    "stars": 84275,
-    "forks": 7664,
-    "open_issues": 30,
-    "topics": [],
-    "created_at": "2016-02-26T20:49:53Z",
-    "updated_at": "2026-10-12T14:08:33Z",
-    "pushed_at": "2026-08-26T06:00:45Z",
-    "default_branch": "main",
-    "archived": false,
-    "fork": false,
-    "search_score": 1.0,
-    "matched_topics": [
-      "Django"
-    ],
-    "quality_score": 82.16
+    "quality_score": 82.75
   },
   {
     "id": 10744183,
@@ -1308,9 +1284,9 @@
     "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
     "html_url": "https://github.com/netdata/netdata",
     "language": "Go",
-    "stars": 80900,
-    "forks": 6662,
-    "open_issues": 453,
+    "stars": 81029,
+    "forks": 6687,
+    "open_issues": 451,
     "topics": [
       "ai",
       "alerting",
@@ -1334,8 +1310,8 @@
       "prometheus"
     ],
     "created_at": "2013-06-17T18:39:10Z",
-    "updated_at": "2026-10-12T16:56:56Z",
-    "pushed_at": "2026-10-12T16:28:54Z",
+    "updated_at": "2026-10-19T14:49:25Z",
+    "pushed_at": "2026-10-19T12:37:36Z",
     "default_branch": "master",
     "archived": false,
     "fork": false,
@@ -1344,7 +1320,31 @@
       "PostgreSQL",
       "Docker"
     ],
-    "quality_score": 82.14
+    "quality_score": 82.15
+  },
+  {
+    "id": 52631841,
+    "full_name": "realworld-apps/realworld",
+    "name": "realworld",
+    "owner": "realworld-apps",
+    "description": "\"The mother of all demo apps\" — Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more",
+    "html_url": "https://github.com/realworld-apps/realworld",
+    "language": "TypeScript",
+    "stars": 84306,
+    "forks": 7667,
+    "open_issues": 30,
+    "topics": [],
+    "created_at": "2016-02-26T20:49:53Z",
+    "updated_at": "2026-10-19T13:08:53Z",
+    "pushed_at": "2026-08-26T06:00:45Z",
+    "default_branch": "main",
+    "archived": false,
+    "fork": false,
+    "search_score": 1.0,
+    "matched_topics": [
+      "Django"
+    ],
+    "quality_score": 82.11
   },
   {
     "id": 212639071,
@@ -1354,8 +1354,8 @@
     "description": "Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions",
     "html_url": "https://github.com/bregman-arie/devops-exercises",
     "language": "Python",
-    "stars": 84842,
-    "forks": 20375,
+    "stars": 84907,
+    "forks": 20396,
     "open_issues": 56,
     "topics": [
       "ansible",
@@ -1379,7 +1379,7 @@
       "terraform"
     ],
     "created_at": "2019-10-03T17:31:21Z",
-    "updated_at": "2026-10-12T15:45:37Z",
+    "updated_at": "2026-10-19T12:17:00Z",
     "pushed_at": "2025-12-27T14:22:30Z",
     "default_branch": "master",
     "archived": false,
@@ -1388,7 +1388,7 @@
     "matched_topics": [
       "Docker"
     ],
-    "quality_score": 81.8
+    "quality_score": 81.76
   },
   {
     "id": 1129940957,
@@ -1398,9 +1398,9 @@
     "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
     "html_url": "https://github.com/headroomlabs-ai/headroom",
     "language": "Python",
-    "stars": 75125,
-    "forks": 5826,
-    "open_issues": 432,
+    "stars": 76058,
+    "forks": 5913,
+    "open_issues": 472,
     "topics": [
       "agent",
       "ai",
@@ -1424,8 +1424,8 @@
       "typescript"
     ],
     "created_at": "2026-01-07T19:58:51Z",
-    "updated_at": "2026-10-12T16:56:16Z",
-    "pushed_at": "2026-10-12T16:53:37Z",
+    "updated_at": "2026-10-19T14:57:00Z",
+    "pushed_at": "2026-10-17T18:29:50Z",
     "default_branch": "main",
     "archived": false,
     "fork": false,
@@ -1433,7 +1433,49 @@
     "matched_topics": [
       "FastAPI"
     ],
-    "quality_score": 81.68
+    "quality_score": 81.73
+  },
+  {
+    "id": 572984571,
+    "full_name": "twentyhq/twenty",
+    "name": "twenty",
+    "owner": "twentyhq",
+    "description": "The open alternative to Salesforce, designed for AI.",
+    "html_url": "https://github.com/twentyhq/twenty",
+    "language": "TypeScript",
+    "stars": 58531,
+    "forks": 9595,
+    "open_issues": 138,
+    "topics": [
+      "crm",
+      "crm-system",
+      "customer",
+      "good-first-issue",
+      "graphql",
+      "hacktoberfest",
+      "javascript",
+      "marketing",
+      "monorepo",
+      "nestjs",
+      "open-source",
+      "postgresql",
+      "react",
+      "reactjs",
+      "sales",
+      "typescript",
+      "web"
+    ],
+    "created_at": "2022-12-01T13:04:40Z",
+    "updated_at": "2026-10-19T15:01:39Z",
+    "pushed_at": "2026-10-19T15:02:38Z",
+    "default_branch": "main",
+    "archived": false,
+    "fork": false,
+    "search_score": 1.0,
+    "matched_topics": [
+      "PostgreSQL"
+    ],
+    "quality_score": 81.35
   },
   {
     "id": 33884891,
@@ -1443,9 +1485,9 @@
     "description": "Apache Airflow - A platform to programmatically author, schedule, and monitor workflows",
     "html_url": "https://github.com/apache/airflow",
     "language": "Python",
-    "stars": 47148,
-    "forks": 18010,
-    "open_issues": 1845,
+    "stars": 47219,
+    "forks": 18078,
+    "open_issues": 1900,
     "topics": [
       "airflow",
       "apache",
@@ -1469,8 +1511,8 @@
       "workflow-orchestration"
     ],
     "created_at": "2015-04-13T18:04:58Z",
-    "updated_at": "2026-10-12T16:48:28Z",
-    "pushed_at": "2026-10-12T17:02:58Z",
+    "updated_at": "2026-10-19T14:56:59Z",
+    "pushed_at": "2026-10-19T15:01:09Z",
     "default_branch": "main",
     "archived": false,
     "fork": false,
@@ -1478,88 +1520,7 @@
     "matched_topics": [
       "Python automation"
     ],
-    "quality_score": 81.33
-  },
-  {
-    "id": 572984571,
-    "full_name": "twentyhq/twenty",
-    "name": "twenty",
-    "owner": "twentyhq",
-    "description": "The open alternative to Salesforce, designed for AI.",
-    "html_url": "https://github.com/twentyhq/twenty",
-    "language": "TypeScript",
-    "stars": 58246,
-    "forks": 9513,
-    "open_issues": 128,
-    "topics": [
-      "crm",
-      "crm-system",
-      "customer",
-      "good-first-issue",
-      "graphql",
-      "hacktoberfest",
-      "javascript",
-      "marketing",
-      "monorepo",
-      "nestjs",
-      "open-source",
-      "postgresql",
-      "react",
-      "reactjs",
-      "sales",
-      "typescript",
-      "web"
-    ],
-    "created_at": "2022-12-01T13:04:40Z",
-    "updated_at": "2026-10-12T17:03:33Z",
-    "pushed_at": "2026-10-12T17:03:29Z",
-    "default_branch": "main",
-    "archived": false,
-    "fork": false,
-    "search_score": 1.0,
-    "matched_topics": [
-      "PostgreSQL"
-    ],
-    "quality_score": 81.32
-  },
-  {
-    "id": 42408804,
-    "full_name": "traefik/traefik",
-    "name": "traefik",
-    "owner": "traefik",
-    "description": "The Cloud Native Application Proxy",
-    "html_url": "https://github.com/traefik/traefik",
-    "language": "Go",
-    "stars": 65177,
-    "forks": 6238,
-    "open_issues": 959,
-    "topics": [
-      "consul",
-      "docker",
-      "etcd",
-      "go",
-      "golang",
-      "kubernetes",
-      "letsencrypt",
-      "load-balancer",
-      "marathon",
-      "mesos",
-      "microservice",
-      "reverse-proxy",
-      "traefik",
-      "zookeeper"
-    ],
-    "created_at": "2015-09-13T19:04:02Z",
-    "updated_at": "2026-10-12T16:57:34Z",
-    "pushed_at": "2026-10-12T15:36:07Z",
-    "default_branch": "master",
-    "archived": false,
-    "fork": false,
-    "search_score": 1.0,
-    "matched_topics": [
-      "Docker"
-    ],
-    "quality_score": 81.21
+    "quality_score": 81.34
   },
   {
     "id": 350360184,
@@ -1569,9 +1530,9 @@
     "description": "Scheduling infrastructure for absolutely everyone.",
     "html_url": "https://github.com/calcom/cal.diy",
     "language": "TypeScript",
-    "stars": 48968,
-    "forks": 15322,
-    "open_issues": 1503,
+    "stars": 49151,
+    "forks": 15382,
+    "open_issues": 1516,
     "topics": [
       "next-auth",
       "nextjs",
@@ -1586,8 +1547,8 @@
       "zod"
     ],
     "created_at": "2021-03-22T13:47:42Z",
-    "updated_at": "2026-10-12T16:59:59Z",
-    "pushed_at": "2026-09-26T07:48:40Z",
+    "updated_at": "2026-10-19T14:34:34Z",
+    "pushed_at": "2026-10-18T10:27:02Z",
     "default_branch": "main",
     "archived": false,
     "fork": false,
@@ -1595,7 +1556,46 @@
     "matched_topics": [
       "PostgreSQL"
     ],
-    "quality_score": 81.15
+    "quality_score": 81.28
+  },
+  {
+    "id": 42408804,
+    "full_name": "traefik/traefik",
+    "name": "traefik",
+    "owner": "traefik",
+    "description": "The Cloud Native Application Proxy",
+    "html_url": "https://github.com/traefik/traefik",
+    "language": "Go",
+    "stars": 65277,
+    "forks": 6256,
+    "open_issues": 948,
+    "topics": [
+      "consul",
+      "docker",
+      "gateway",
+      "gatewayapi",
+      "go",
+      "golang",
+      "ingress-nginx",
+      "kubernetes",
+      "letsencrypt",
+      "load-balancer",
+      "microservice",
+      "opentelemetry",
+      "reverse-proxy",
+      "traefik"
+    ],
+    "created_at": "2015-09-13T19:04:02Z",
+    "updated_at": "2026-10-19T13:22:31Z",
+    "pushed_at": "2026-10-19T14:52:46Z",
+    "default_branch": "master",
+    "archived": false,
+    "fork": false,
+    "search_score": 1.0,
+    "matched_topics": [
+      "Docker"
+    ],
+    "quality_score": 81.22
   },
   {
     "id": 108761645,
@@ -1605,9 +1605,9 @@
     "description": "🔥 🔥 🔥 A Free & Self-hostable Airtable Alternative",
     "html_url": "https://github.com/nocodb/nocodb",
     "language": "TypeScript",
-    "stars": 65255,
-    "forks": 5082,
-    "open_issues": 705,
+    "stars": 65292,
+    "forks": 5094,
+    "open_issues": 716,
     "topics": [
       "airtable",
       "airtable-alternative",
@@ -1625,8 +1625,8 @@
       "swagger"
     ],
     "created_at": "2017-10-29T18:51:48Z",
-    "updated_at": "2026-10-12T16:58:22Z",
-    "pushed_at": "2026-10-12T13:17:28Z",
+    "updated_at": "2026-10-19T14:51:09Z",
+    "pushed_at": "2026-10-19T11:46:13Z",
     "default_branch": "develop",
     "archived": false,
     "fork": false,
@@ -1644,9 +1644,9 @@
     "description": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
     "html_url": "https://github.com/makeplane/plane",
     "language": "TypeScript",
-    "stars": 60718,
-    "forks": 6039,
-    "open_issues": 1114,
+    "stars": 61133,
+    "forks": 6130,
+    "open_issues": 1137,
     "topics": [
       "boards",
       "bug-tracker",
@@ -1670,8 +1670,8 @@
       "work-management"
     ],
     "created_at": "2022-11-19T12:55:01Z",
-    "updated_at": "2026-10-12T17:02:33Z",
-    "pushed_at": "2026-10-12T11:28:29Z",
+    "updated_at": "2026-10-19T14:52:25Z",
+    "pushed_at": "2026-10-19T09:15:32Z",
     "default_branch": "preview",
     "archived": false,
     "fork": false,
@@ -1680,19 +1680,19 @@
       "Django",
       "PostgreSQL"
     ],
-    "quality_score": 80.89
+    "quality_score": 80.94
   },
   {
     "id": 436297812,
     "full_name": "usememos/memos",
     "name": "memos",
     "owner": "usememos",
-    "description": "A personal timeline for quick notes. Write short memos, find them later by search, tag, or date. Open source and self-hosted.",
+    "description": "Memos is an open-source, self-hosted note-taking app that brings your everyday thoughts together in a personal timeline. Your data stays yours, and you choose what to keep private or share.",
     "html_url": "https://github.com/usememos/memos",
     "language": "Go",
-    "stars": 63732,
-    "forks": 4851,
-    "open_issues": 99,
+    "stars": 63913,
+    "forks": 4869,
+    "open_issues": 88,
     "topics": [
       "docker",
       "foss",
@@ -1710,8 +1710,8 @@
       "timeline"
     ],
     "created_at": "2021-12-08T15:30:18Z",
-    "updated_at": "2026-10-12T17:00:22Z",
-    "pushed_at": "2026-10-12T15:49:07Z",
+    "updated_at": "2026-10-19T14:34:40Z",
+    "pushed_at": "2026-10-19T05:58:40Z",
     "default_branch": "main",
     "archived": false,
     "fork": false,
@@ -1719,35 +1719,7 @@
     "matched_topics": [
       "Docker"
     ],
-    "quality_score": 80.8
-  },
-  {
-    "id": 63537249,
-    "full_name": "react/create-react-app",
-    "name": "create-react-app",
-    "owner": "react",
-    "description": "Set up a modern web app by running one command.",
-    "html_url": "https://github.com/react/create-react-app",
-    "language": "JavaScript",
-    "stars": 103219,
-    "forks": 26870,
-    "open_issues": 2408,
-    "topics": [
-      "build-tools",
-      "react",
-      "zero-configuration"
-    ],
-    "created_at": "2016-07-17T14:55:11Z",
-    "updated_at": "2026-10-12T16:35:59Z",
-    "pushed_at": "2025-02-15T01:32:11Z",
-    "default_branch": "main",
-    "archived": false,
-    "fork": false,
-    "search_score": 1.0,
-    "matched_topics": [
-      "React"
-    ],
-    "quality_score": 80.65
+    "quality_score": 80.81
   },
   {
     "id": 121898717,
@@ -1757,9 +1729,9 @@
     "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
     "html_url": "https://github.com/dani-garcia/vaultwarden",
     "language": "Rust",
-    "stars": 68909,
-    "forks": 3310,
-    "open_issues": 93,
+    "stars": 69301,
+    "forks": 3348,
+    "open_issues": 103,
     "topics": [
       "bitwarden",
       "bitwarden-rs",
@@ -1769,8 +1741,8 @@
       "vaultwarden"
     ],
     "created_at": "2018-02-17T22:40:20Z",
-    "updated_at": "2026-10-12T16:58:29Z",
-    "pushed_at": "2026-10-10T17:58:41Z",
+    "updated_at": "2026-10-19T14:54:25Z",
+    "pushed_at": "2026-10-16T09:51:32Z",
     "default_branch": "main",
     "archived": false,
     "fork": false,
@@ -1778,7 +1750,35 @@
     "matched_topics": [
       "Docker"
     ],
-    "quality_score": 80.59
+    "quality_score": 80.62
+  },
+  {
+    "id": 63537249,
+    "full_name": "react/create-react-app",
+    "name": "create-react-app",
+    "owner": "react",
+    "description": "Set up a modern web app by running one command.",
+    "html_url": "https://github.com/react/create-react-app",
+    "language": "JavaScript",
+    "stars": 103233,
+    "forks": 26872,
+    "open_issues": 2409,
+    "topics": [
+      "build-tools",
+      "react",
+      "zero-configuration"
+    ],
+    "created_at": "2016-07-17T14:55:11Z",
+    "updated_at": "2026-10-19T05:44:12Z",
+    "pushed_at": "2025-02-15T01:32:11Z",
+    "default_branch": "main",
+    "archived": false,
+    "fork": false,
+    "search_score": 1.0,
+    "matched_topics": [
+      "React"
+    ],
+    "quality_score": 80.6
   },
   {
     "id": 1147094660,
@@ -1788,9 +1788,9 @@
     "description": "Ultra-lightweight, open-source, self-hosted personal AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows, automation, and chat apps",
     "html_url": "https://github.com/HKUDS/nanobot",
     "language": "Python",
-    "stars": 48970,
-    "forks": 8628,
-    "open_issues": 825,
+    "stars": 49186,
+    "forks": 8642,
+    "open_issues": 846,
     "topics": [
       "agent-framework",
       "ai-agent",
@@ -1814,8 +1814,8 @@
       "workflow-automation"
     ],
     "created_at": "2026-02-01T07:16:15Z",
-    "updated_at": "2026-10-12T16:56:00Z",
-    "pushed_at": "2026-10-12T16:44:26Z",
+    "updated_at": "2026-10-19T15:00:01Z",
+    "pushed_at": "2026-10-19T13:30:45Z",
     "default_branch": "main",
     "archived": false,
     "fork": false,
@@ -1823,7 +1823,39 @@
     "matched_topics": [
       "Python automation"
     ],
-    "quality_score": 80.52
+    "quality_score": 80.54
+  },
+  {
+    "id": 7569578,
+    "full_name": "discourse/discourse",
+    "name": "discourse",
+    "owner": "discourse",
+    "description": "A platform for community discussion. Free, open, simple.",
+    "html_url": "https://github.com/discourse/discourse",
+    "language": "Ruby",
+    "stars": 47994,
+    "forks": 9038,
+    "open_issues": 220,
+    "topics": [
+      "discourse",
+      "ember",
+      "forum",
+      "javascript",
+      "postgresql",
+      "rails",
+      "ruby"
+    ],
+    "created_at": "2013-01-12T00:25:55Z",
+    "updated_at": "2026-10-19T15:00:37Z",
+    "pushed_at": "2026-10-19T15:02:26Z",
+    "default_branch": "main",
+    "archived": false,
+    "fork": false,
+    "search_score": 1.0,
+    "matched_topics": [
+      "PostgreSQL"
+    ],
+    "quality_score": 80.5
   },
   {
     "id": 172227885,
@@ -1833,8 +1865,8 @@
     "description": "Full-stack web application template with FastAPI, React, SQLModel, PostgreSQL, Vite, Tailwind CSS, shadcn/ui, FastAPI Cloud, and Docker Compose.",
     "html_url": "https://github.com/fastapi/full-stack-fastapi-template",
     "language": "TypeScript",
-    "stars": 45955,
-    "forks": 9146,
+    "stars": 46040,
+    "forks": 9150,
     "open_issues": 12,
     "topics": [
       "docker",
@@ -1859,8 +1891,8 @@
       "vite"
     ],
     "created_at": "2019-02-23T15:08:34Z",
-    "updated_at": "2026-10-12T16:48:26Z",
-    "pushed_at": "2026-10-08T15:50:30Z",
+    "updated_at": "2026-10-19T14:55:37Z",
+    "pushed_at": "2026-10-15T16:04:33Z",
     "default_branch": "master",
     "archived": false,
     "fork": false,
@@ -1868,7 +1900,7 @@
     "matched_topics": [
       "FastAPI"
     ],
-    "quality_score": 80.32
+    "quality_score": 80.33
   },
   {
     "id": 30203935,
@@ -1878,9 +1910,9 @@
     "description": "The easy-to-use open source Business Intelligence and Embedded Analytics tool that lets everyone work with data :bar_chart:",
     "html_url": "https://github.com/metabase/metabase",
     "language": "Clojure",
-    "stars": 49627,
-    "forks": 6895,
-    "open_issues": 4574,
+    "stars": 49739,
+    "forks": 6914,
+    "open_issues": 4553,
     "topics": [
       "analytics",
       "bi",
@@ -1902,8 +1934,8 @@
       "visualization"
     ],
     "created_at": "2015-02-02T19:25:47Z",
-    "updated_at": "2026-10-12T16:57:24Z",
-    "pushed_at": "2026-10-12T17:02:13Z",
+    "updated_at": "2026-10-19T15:02:53Z",
+    "pushed_at": "2026-10-19T15:02:57Z",
     "default_branch": "master",
     "archived": false,
     "fork": false,
@@ -1911,160 +1943,7 @@
     "matched_topics": [
       "PostgreSQL"
     ],
-    "quality_score": 80.28
-  },
-  {
-    "id": 44662669,
-    "full_name": "dbeaver/dbeaver",
-    "name": "dbeaver",
-    "owner": "dbeaver",
-    "description": "Free universal database tool and SQL client",
-    "html_url": "https://github.com/dbeaver/dbeaver",
-    "language": "Java",
-    "stars": 52034,
-    "forks": 4404,
-    "open_issues": 3347,
-    "topics": [
-      "ai",
-      "database",
-      "databricks",
-      "db2",
-      "dbeaver",
-      "erd",
-      "gui",
-      "java",
-      "jdbc",
-      "mysql",
-      "nosql",
-      "oracle",
-      "postgresql",
-      "redshift",
-      "snowflake",
-      "sql",
-      "sqlite",
-      "sqlserver"
-    ],
-    "created_at": "2015-10-21T08:26:28Z",
-    "updated_at": "2026-10-12T16:57:36Z",
-    "pushed_at": "2026-10-12T16:54:05Z",
-    "default_branch": "devel",
-    "archived": false,
-    "fork": false,
-    "search_score": 1.0,
-    "matched_topics": [
-      "PostgreSQL"
-    ],
-    "quality_score": 79.88
-  },
-  {
-    "id": 873328,
-    "full_name": "getsentry/sentry",
-    "name": "sentry",
-    "owner": "getsentry",
-    "description": "Developer-first error tracking and performance monitoring",
-    "html_url": "https://github.com/getsentry/sentry",
-    "language": "Python",
-    "stars": 45532,
-    "forks": 4916,
-    "open_issues": 2287,
-    "topics": [
-      "apm",
-      "crash-reporting",
-      "crash-reports",
-      "csp-report",
-      "devops",
-      "django",
-      "error-logging",
-      "error-monitoring",
-      "fair-source",
-      "hacktoberfest",
-      "monitor",
-      "monitoring",
-      "python",
-      "sentry",
-      "tag-production"
-    ],
-    "created_at": "2010-08-30T22:06:41Z",
-    "updated_at": "2026-10-12T16:56:40Z",
-    "pushed_at": "2026-10-12T17:00:57Z",
-    "default_branch": "master",
-    "archived": false,
-    "fork": false,
-    "search_score": 1.0,
-    "matched_topics": [
-      "Django"
-    ],
-    "quality_score": 79.5
-  },
-  {
-    "id": 7613257,
-    "full_name": "SeleniumHQ/selenium",
-    "name": "selenium",
-    "owner": "SeleniumHQ",
-    "description": "A browser automation framework and ecosystem.",
-    "html_url": "https://github.com/SeleniumHQ/selenium",
-    "language": "Java",
-    "stars": 34539,
-    "forks": 8719,
-    "open_issues": 185,
-    "topics": [
-      "dotnet",
-      "java",
-      "javascript",
-      "python",
-      "ruby",
-      "rust",
-      "selenium",
-      "webdriver"
-    ],
-    "created_at": "2013-01-14T21:40:56Z",
-    "updated_at": "2026-10-12T16:27:51Z",
-    "pushed_at": "2026-10-12T16:27:46Z",
-    "default_branch": "trunk",
-    "archived": false,
-    "fork": false,
-    "search_score": 1.0,
-    "matched_topics": [
-      "Python automation"
-    ],
-    "quality_score": 79.17
-  },
-  {
-    "id": 458648791,
-    "full_name": "paperless-ngx/paperless-ngx",
-    "name": "paperless-ngx",
-    "owner": "paperless-ngx",
-    "description": "A community-supported supercharged document management system: scan, index and archive all your documents",
-    "html_url": "https://github.com/paperless-ngx/paperless-ngx",
-    "language": "Python",
-    "stars": 46556,
-    "forks": 3223,
-    "open_issues": 13,
-    "topics": [
-      "ai",
-      "angular",
-      "archiving",
-      "django",
-      "dms",
-      "document-management",
-      "document-management-system",
-      "llm",
-      "machine-learning",
-      "ocr",
-      "optical-character-recognition",
-      "pdf"
-    ],
-    "created_at": "2022-02-12T21:56:52Z",
-    "updated_at": "2026-10-12T17:00:29Z",
-    "pushed_at": "2026-10-12T16:55:13Z",
-    "default_branch": "dev",
-    "archived": false,
-    "fork": false,
-    "search_score": 1.0,
-    "matched_topics": [
-      "Django"
-    ],
-    "quality_score": 79.04
+    "quality_score": 80.29
   },
   {
     "id": 110058856,
@@ -2074,8 +1953,8 @@
     "description": "👩‍💻👨‍💻 Awesome cheatsheets for popular programming languages, frameworks and development tools. They include everything you should know in one single file.",
     "html_url": "https://github.com/LeCoupa/awesome-cheatsheets",
     "language": "JavaScript",
-    "stars": 46555,
-    "forks": 6690,
+    "stars": 46573,
+    "forks": 6687,
     "open_issues": 135,
     "topics": [
       "backend",
@@ -2100,8 +1979,8 @@
       "xcode"
     ],
     "created_at": "2017-11-09T02:47:15Z",
-    "updated_at": "2026-10-12T16:03:32Z",
-    "pushed_at": "2026-04-12T17:26:10Z",
+    "updated_at": "2026-10-19T14:59:46Z",
+    "pushed_at": "2026-10-17T14:11:21Z",
     "default_branch": "master",
     "archived": false,
     "fork": false,
@@ -2109,7 +1988,160 @@
     "matched_topics": [
       "Django"
     ],
-    "quality_score": 78.73
+    "quality_score": 79.98
+  },
+  {
+    "id": 44662669,
+    "full_name": "dbeaver/dbeaver",
+    "name": "dbeaver",
+    "owner": "dbeaver",
+    "description": "Free universal database tool and SQL client",
+    "html_url": "https://github.com/dbeaver/dbeaver",
+    "language": "Java",
+    "stars": 52133,
+    "forks": 4420,
+    "open_issues": 3357,
+    "topics": [
+      "ai",
+      "database",
+      "databricks",
+      "db2",
+      "dbeaver",
+      "erd",
+      "gui",
+      "java",
+      "jdbc",
+      "mysql",
+      "nosql",
+      "oracle",
+      "postgresql",
+      "redshift",
+      "snowflake",
+      "sql",
+      "sqlite",
+      "sqlserver"
+    ],
+    "created_at": "2015-10-21T08:26:28Z",
+    "updated_at": "2026-10-19T13:40:27Z",
+    "pushed_at": "2026-10-19T13:40:01Z",
+    "default_branch": "devel",
+    "archived": false,
+    "fork": false,
+    "search_score": 1.0,
+    "matched_topics": [
+      "PostgreSQL"
+    ],
+    "quality_score": 79.89
+  },
+  {
+    "id": 873328,
+    "full_name": "getsentry/sentry",
+    "name": "sentry",
+    "owner": "getsentry",
+    "description": "Developer-first error tracking and performance monitoring",
+    "html_url": "https://github.com/getsentry/sentry",
+    "language": "Python",
+    "stars": 45603,
+    "forks": 4939,
+    "open_issues": 2354,
+    "topics": [
+      "apm",
+      "crash-reporting",
+      "crash-reports",
+      "csp-report",
+      "devops",
+      "django",
+      "error-logging",
+      "error-monitoring",
+      "fair-source",
+      "hacktoberfest",
+      "monitor",
+      "monitoring",
+      "python",
+      "sentry",
+      "tag-production"
+    ],
+    "created_at": "2010-08-30T22:06:41Z",
+    "updated_at": "2026-10-19T14:49:12Z",
+    "pushed_at": "2026-10-19T15:01:47Z",
+    "default_branch": "master",
+    "archived": false,
+    "fork": false,
+    "search_score": 1.0,
+    "matched_topics": [
+      "Django"
+    ],
+    "quality_score": 79.51
+  },
+  {
+    "id": 7613257,
+    "full_name": "SeleniumHQ/selenium",
+    "name": "selenium",
+    "owner": "SeleniumHQ",
+    "description": "A browser automation framework and ecosystem.",
+    "html_url": "https://github.com/SeleniumHQ/selenium",
+    "language": "Java",
+    "stars": 34559,
+    "forks": 8726,
+    "open_issues": 201,
+    "topics": [
+      "dotnet",
+      "java",
+      "javascript",
+      "python",
+      "ruby",
+      "rust",
+      "selenium",
+      "webdriver"
+    ],
+    "created_at": "2013-01-14T21:40:56Z",
+    "updated_at": "2026-10-19T11:25:52Z",
+    "pushed_at": "2026-10-19T14:35:00Z",
+    "default_branch": "trunk",
+    "archived": false,
+    "fork": false,
+    "search_score": 1.0,
+    "matched_topics": [
+      "Python automation"
+    ],
+    "quality_score": 79.17
+  },
+  {
+    "id": 458648791,
+    "full_name": "paperless-ngx/paperless-ngx",
+    "name": "paperless-ngx",
+    "owner": "paperless-ngx",
+    "description": "A community-supported supercharged document management system: scan, index and archive all your documents",
+    "html_url": "https://github.com/paperless-ngx/paperless-ngx",
+    "language": "Python",
+    "stars": 46879,
+    "forks": 3253,
+    "open_issues": 19,
+    "topics": [
+      "ai",
+      "angular",
+      "archiving",
+      "django",
+      "dms",
+      "document-management",
+      "document-management-system",
+      "llm",
+      "machine-learning",
+      "ocr",
+      "optical-character-recognition",
+      "pdf"
+    ],
+    "created_at": "2022-02-12T21:56:52Z",
+    "updated_at": "2026-10-19T14:32:33Z",
+    "pushed_at": "2026-10-19T12:31:24Z",
+    "default_branch": "dev",
+    "archived": false,
+    "fork": false,
+    "search_score": 1.0,
+    "matched_topics": [
+      "Django"
+    ],
+    "quality_score": 79.08
   },
   {
     "id": 1431547,
@@ -2119,9 +2151,9 @@
     "description": "Web APIs for Django. 🎸",
     "html_url": "https://github.com/encode/django-rest-framework",
     "language": "Python",
-    "stars": 30204,
-    "forks": 7094,
-    "open_issues": 56,
+    "stars": 30209,
+    "forks": 7092,
+    "open_issues": 57,
     "topics": [
       "api",
       "django",
@@ -2129,8 +2161,8 @@
       "rest"
     ],
     "created_at": "2011-03-02T17:13:56Z",
-    "updated_at": "2026-10-12T15:46:25Z",
-    "pushed_at": "2026-10-08T02:57:13Z",
+    "updated_at": "2026-10-19T10:48:46Z",
+    "pushed_at": "2026-10-14T22:32:27Z",
     "default_branch": "main",
     "archived": false,
     "fork": false,
@@ -2148,9 +2180,9 @@
     "description": "JumpServer is an Open-source Privileged Access Management (PAM) platform with AI-powered capabilities, providing DevOps and IT teams a unified workspace to securely access SSH, RDP, Kubernetes, databases, websites, RemoteApp, VirtualApp, and more.",
     "html_url": "https://github.com/jumpserver/jumpserver",
     "language": "Python",
-    "stars": 31756,
-    "forks": 5805,
-    "open_issues": 76,
+    "stars": 31799,
+    "forks": 5810,
+    "open_issues": 55,
     "topics": [
       "ai",
       "bastion-host",
@@ -2165,8 +2197,8 @@
       "terminal"
     ],
     "created_at": "2014-07-04T03:54:59Z",
-    "updated_at": "2026-10-12T16:57:12Z",
-    "pushed_at": "2026-10-12T10:34:54Z",
+    "updated_at": "2026-10-19T14:02:34Z",
+    "pushed_at": "2026-10-19T10:15:21Z",
     "default_branch": "dev",
     "archived": false,
     "fork": false,
@@ -2177,46 +2209,6 @@
     "quality_score": 78.31
   },
   {
-    "id": 668195240,
-    "full_name": "pathwaycom/llm-app",
-    "name": "llm-app",
-    "owner": "pathwaycom",
-    "description": "Ready-to-run cloud templates for RAG, AI pipelines, and enterprise search with live data. 🐳Docker-friendly.⚡Always in sync with Sharepoint, Google Drive, S3, Kafka, PostgreSQL, real-time data APIs, and more.",
-    "html_url": "https://github.com/pathwaycom/llm-app",
-    "language": "Jupyter Notebook",
-    "stars": 58801,
-    "forks": 1503,
-    "open_issues": 8,
-    "topics": [
-      "chatbot",
-      "hugging-face",
-      "llm",
-      "llm-local",
-      "llm-prompting",
-      "llm-security",
-      "llmops",
-      "machine-learning",
-      "open-ai",
-      "pathway",
-      "rag",
-      "real-time",
-      "retrieval-augmented-generation",
-      "vector-database",
-      "vector-index"
-    ],
-    "created_at": "2023-07-19T08:43:37Z",
-    "updated_at": "2026-10-12T10:54:49Z",
-    "pushed_at": "2026-07-05T17:59:07Z",
-    "default_branch": "main",
-    "archived": false,
-    "fork": false,
-    "search_score": 1.0,
-    "matched_topics": [
-      "PostgreSQL"
-    ],
-    "quality_score": 78.28
-  },
-  {
     "id": 639835356,
     "full_name": "assafelovic/gpt-researcher",
     "name": "gpt-researcher",
@@ -2224,9 +2216,9 @@
     "description": "An autonomous agent that conducts deep research on any data using any LLM providers",
     "html_url": "https://github.com/assafelovic/gpt-researcher",
     "language": "Python",
-    "stars": 30043,
-    "forks": 4103,
-    "open_issues": 33,
+    "stars": 30172,
+    "forks": 4310,
+    "open_issues": 45,
     "topics": [
       "agent",
       "ai",
@@ -2241,7 +2233,7 @@
       "webscraping"
     ],
     "created_at": "2023-05-12T10:33:54Z",
-    "updated_at": "2026-10-12T16:39:30Z",
+    "updated_at": "2026-10-19T15:02:22Z",
     "pushed_at": "2026-10-10T22:03:53Z",
     "default_branch": "main",
     "archived": false,
@@ -2250,7 +2242,7 @@
     "matched_topics": [
       "Python automation"
     ],
-    "quality_score": 77.63
+    "quality_score": 77.66
   },
   {
     "id": 756289095,
@@ -2260,9 +2252,9 @@
     "description": "Automate the process of making money online.",
     "html_url": "https://github.com/FujiwaraChoki/MoneyPrinterV2",
     "language": "Python",
-    "stars": 32090,
-    "forks": 3445,
-    "open_issues": 92,
+    "stars": 32159,
+    "forks": 3544,
+    "open_issues": 91,
     "topics": [
       "automation",
       "cli",
@@ -2274,7 +2266,7 @@
       "youtube"
     ],
     "created_at": "2024-02-12T11:20:42Z",
-    "updated_at": "2026-10-12T16:21:44Z",
+    "updated_at": "2026-10-19T14:08:18Z",
     "pushed_at": "2026-09-15T22:35:17Z",
     "default_branch": "main",
     "archived": false,
@@ -2283,7 +2275,7 @@
     "matched_topics": [
       "Python automation"
     ],
-    "quality_score": 77.49
+    "quality_score": 77.48
   },
   {
     "id": 16479108,
@@ -2293,9 +2285,9 @@
     "description": "A Django content management system focused on flexibility and user experience",
     "html_url": "https://github.com/wagtail/wagtail",
     "language": "Python",
-    "stars": 20547,
-    "forks": 4646,
-    "open_issues": 1023,
+    "stars": 20578,
+    "forks": 4655,
+    "open_issues": 1020,
     "topics": [
       "cms",
       "django",
@@ -2304,8 +2296,8 @@
       "wagtail"
     ],
     "created_at": "2014-02-03T12:41:59Z",
-    "updated_at": "2026-10-12T16:36:27Z",
-    "pushed_at": "2026-10-12T16:40:24Z",
+    "updated_at": "2026-10-19T13:54:49Z",
+    "pushed_at": "2026-10-16T17:03:34Z",
     "default_branch": "main",
     "archived": false,
     "fork": false,
@@ -2313,7 +2305,7 @@
     "matched_topics": [
       "Django"
     ],
-    "quality_score": 76.32
+    "quality_score": 76.3
   },
   {
     "id": 33702544,
@@ -2323,9 +2315,9 @@
     "description": "Data Apps & Dashboards for Python. No JavaScript Required.",
     "html_url": "https://github.com/plotly/dash",
     "language": "Python",
-    "stars": 24445,
-    "forks": 2328,
-    "open_issues": 434,
+    "stars": 24459,
+    "forks": 2326,
+    "open_issues": 433,
     "topics": [
       "ai",
       "bioinformatics",
@@ -2347,8 +2339,8 @@
       "web-app"
     ],
     "created_at": "2015-04-10T01:53:08Z",
-    "updated_at": "2026-10-12T12:56:03Z",
-    "pushed_at": "2026-10-09T21:04:04Z",
+    "updated_at": "2026-10-19T08:25:14Z",
+    "pushed_at": "2026-10-15T19:38:11Z",
     "default_branch": "dev",
     "archived": false,
     "fork": false,
@@ -2356,7 +2348,7 @@
     "matched_topics": [
       "Flask"
     ],
-    "quality_score": 76.08
+    "quality_score": 76.07
   },
   {
     "id": 52796596,
@@ -2366,9 +2358,9 @@
     "description": "The premier source of truth powering network automation. Open source under Apache 2. Try NetBox Cloud free: https://netboxlabs.com/products/free-netbox-cloud/",
     "html_url": "https://github.com/netbox-community/netbox",
     "language": "Python",
-    "stars": 21680,
-    "forks": 3147,
-    "open_issues": 231,
+    "stars": 21727,
+    "forks": 3155,
+    "open_issues": 244,
     "topics": [
       "cabling",
       "dcim",
@@ -2381,8 +2373,8 @@
       "python"
     ],
     "created_at": "2016-02-29T14:15:46Z",
-    "updated_at": "2026-10-12T16:57:44Z",
-    "pushed_at": "2026-10-12T16:26:49Z",
+    "updated_at": "2026-10-19T14:34:38Z",
+    "pushed_at": "2026-10-19T14:52:53Z",
     "default_branch": "main",
     "archived": false,
     "fork": false,
@@ -2390,21 +2382,21 @@
     "matched_topics": [
       "Django"
     ],
-    "quality_score": 76.02
+    "quality_score": 76.03
   },
   {
     "id": 425387994,
     "full_name": "Evil0ctal/Douyin_TikTok_Download_API",
     "name": "Douyin_TikTok_Download_API",
     "owner": "Evil0ctal",
-    "description": "🚀 抖音、TikTok 数据采集与无水印视频下载 API，自托管，支持 MCP 调用与 Docker 一键部署。| Self-hosted TikTok & Douyin scraper and no-watermark video downloader — async REST API, MCP server, CLI and web console for posts, profiles, comments and playlists. Self-healing identity pool, PostgreSQL archive, one docker compose up. ",
+    "description": "🚀 自托管的抖音、TikTok 数据采集与无水印视频下载 API，支持 AI agent 通过 MCP 调用与离线语音转文字，Docker 一键部署。| Self-hosted TikTok & Douyin scraper and no-watermark video downloader — async REST API, MCP server for AI agents, CLI and web console, plus offline speech-to-text for downloaded videos. Self-healing identity pool, PostgreSQL archive, one docker compose up.",
     "html_url": "https://github.com/Evil0ctal/Douyin_TikTok_Download_API",
     "language": "Python",
-    "stars": 20606,
-    "forks": 2860,
-    "open_issues": 4,
+    "stars": 20786,
+    "forks": 3065,
+    "open_issues": 3,
     "topics": [
-      "asyncio",
+      "ai-agents",
       "crawler",
       "data-collection",
       "douyin",
@@ -2417,7 +2409,7 @@
       "rest-api",
       "scraper",
       "social-media",
-      "spider",
+      "speech-to-text",
       "tiktok",
       "tiktok-api",
       "tiktok-downloader",
@@ -2426,8 +2418,8 @@
       "web-scraping"
     ],
     "created_at": "2021-11-07T01:35:09Z",
-    "updated_at": "2026-10-12T17:01:00Z",
-    "pushed_at": "2026-10-02T00:45:24Z",
+    "updated_at": "2026-10-19T14:54:03Z",
+    "pushed_at": "2026-10-18T10:47:08Z",
     "default_branch": "main",
     "archived": false,
     "fork": false,
@@ -2435,7 +2427,7 @@
     "matched_topics": [
       "FastAPI"
     ],
-    "quality_score": 75.62
+    "quality_score": 75.81
   },
   {
     "id": 655413331,
@@ -2445,8 +2437,8 @@
     "description": "⚡️HivisionIDPhotos: a lightweight and efficient AI ID photos tools. 一个轻量级的AI证件照制作算法。",
     "html_url": "https://github.com/Zeyi-Lin/HivisionIDPhotos",
     "language": "Python",
-    "stars": 21620,
-    "forks": 2517,
+    "stars": 21645,
+    "forks": 2521,
     "open_issues": 106,
     "topics": [
       "cnn",
@@ -2463,7 +2455,7 @@
       "unet"
     ],
     "created_at": "2023-06-18T20:17:56Z",
-    "updated_at": "2026-10-12T12:15:33Z",
+    "updated_at": "2026-10-19T14:02:49Z",
     "pushed_at": "2026-07-03T04:12:11Z",
     "default_branch": "master",
     "archived": false,
@@ -2472,7 +2464,7 @@
     "matched_topics": [
       "FastAPI"
     ],
-    "quality_score": 75.02
+    "quality_score": 74.98
   },
   {
     "id": 520969009,
@@ -2482,9 +2474,9 @@
     "description": "Curso para aprender el lenguaje de programación Python desde cero y para principiantes. 100 clases, 44 horas en vídeo, código, proyectos y grupo de chat. Fundamentos, frontend, backend, testing, IA...",
     "html_url": "https://github.com/mouredev/Hello-Python",
     "language": "Python",
-    "stars": 37734,
-    "forks": 2340,
-    "open_issues": 63,
+    "stars": 37795,
+    "forks": 2341,
+    "open_issues": 61,
     "topics": [
       "backend",
       "chatgpt",
@@ -2502,7 +2494,7 @@
       "tutorial"
     ],
     "created_at": "2022-08-03T17:14:53Z",
-    "updated_at": "2026-10-12T14:51:00Z",
+    "updated_at": "2026-10-19T14:09:55Z",
     "pushed_at": "2025-08-11T12:00:01Z",
     "default_branch": "main",
     "archived": false,
@@ -2511,7 +2503,7 @@
     "matched_topics": [
       "FastAPI"
     ],
-    "quality_score": 74.87
+    "quality_score": 74.83
   },
   {
     "id": 295992065,
@@ -2521,9 +2513,9 @@
     "description": "Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.",
     "html_url": "https://github.com/tailwindlabs/headlessui",
     "language": "TypeScript",
-    "stars": 28774,
-    "forks": 1209,
-    "open_issues": 110,
+    "stars": 28782,
+    "forks": 1212,
+    "open_issues": 114,
     "topics": [
       "a11y",
       "accessibility",
@@ -2535,7 +2527,7 @@
       "vue"
     ],
     "created_at": "2020-09-16T09:53:09Z",
-    "updated_at": "2026-10-12T13:42:30Z",
+    "updated_at": "2026-10-18T17:36:43Z",
     "pushed_at": "2026-04-13T16:12:31Z",
     "default_branch": "main",
     "archived": false,
@@ -2544,7 +2536,7 @@
     "matched_topics": [
       "React accessibility"
     ],
-    "quality_score": 74.63
+    "quality_score": 74.59
   },
   {
     "id": 256401220,
@@ -2554,9 +2546,9 @@
     "description": "Learn ML engineering for free in 4 months! Register here 👇🏼",
     "html_url": "https://github.com/DataTalksClub/machine-learning-zoomcamp",
     "language": "Jupyter Notebook",
-    "stars": 14735,
-    "forks": 3281,
-    "open_issues": 13,
+    "stars": 14793,
+    "forks": 3294,
+    "open_issues": 14,
     "topics": [
       "course",
       "deployment",
@@ -2568,8 +2560,8 @@
       "tensorflow"
     ],
     "created_at": "2020-04-17T04:29:23Z",
-    "updated_at": "2026-10-12T16:36:38Z",
-    "pushed_at": "2026-09-23T14:54:56Z",
+    "updated_at": "2026-10-19T14:23:07Z",
+    "pushed_at": "2026-10-16T16:47:35Z",
     "default_branch": "main",
     "archived": false,
     "fork": false,
@@ -2577,41 +2569,7 @@
     "matched_topics": [
       "FastAPI"
     ],
-    "quality_score": 74.43
-  },
-  {
-    "id": 273499522,
-    "full_name": "radix-ui/primitives",
-    "name": "primitives",
-    "owner": "radix-ui",
-    "description": "Radix Primitives is an open-source UI component library for building high-quality, accessible design systems and web apps. Maintained by @workos.",
-    "html_url": "https://github.com/radix-ui/primitives",
-    "language": "TypeScript",
-    "stars": 19386,
-    "forks": 1261,
-    "open_issues": 259,
-    "topics": [
-      "accessibility",
-      "colors",
-      "component-library",
-      "design-systems",
-      "radix-ui",
-      "react",
-      "ui",
-      "ui-components",
-      "ui-kit"
-    ],
-    "created_at": "2020-06-19T13:23:22Z",
-    "updated_at": "2026-10-12T16:50:35Z",
-    "pushed_at": "2026-10-12T06:09:53Z",
-    "default_branch": "main",
-    "archived": false,
-    "fork": false,
-    "search_score": 1.0,
-    "matched_topics": [
-      "React accessibility"
-    ],
-    "quality_score": 74.39
+    "quality_score": 74.56
   },
   {
     "id": 28748255,
@@ -2621,8 +2579,8 @@
     "description": "✨ A beautiful, responsive, highly customizable and accessible (WAI-ARIA) replacement for JavaScript's popup boxes. Zero dependencies. 🇺🇦🇪🇺",
     "html_url": "https://github.com/sweetalert2/sweetalert2",
     "language": "JavaScript",
-    "stars": 18100,
-    "forks": 1620,
+    "stars": 18097,
+    "forks": 1618,
     "open_issues": 4,
     "topics": [
       "accessible",
@@ -2643,8 +2601,8 @@
       "wai-aria"
     ],
     "created_at": "2015-01-03T16:15:52Z",
-    "updated_at": "2026-10-12T12:16:53Z",
-    "pushed_at": "2026-09-18T12:53:21Z",
+    "updated_at": "2026-10-18T02:49:07Z",
+    "pushed_at": "2026-10-14T16:07:59Z",
     "default_branch": "main",
     "archived": false,
     "fork": false,
@@ -2652,7 +2610,41 @@
     "matched_topics": [
       "React accessibility"
     ],
-    "quality_score": 74.28
+    "quality_score": 74.41
+  },
+  {
+    "id": 273499522,
+    "full_name": "radix-ui/primitives",
+    "name": "primitives",
+    "owner": "radix-ui",
+    "description": "Radix Primitives is an open-source UI component library for building high-quality, accessible design systems and web apps. Maintained by @workos.",
+    "html_url": "https://github.com/radix-ui/primitives",
+    "language": "TypeScript",
+    "stars": 19405,
+    "forks": 1275,
+    "open_issues": 235,
+    "topics": [
+      "accessibility",
+      "colors",
+      "component-library",
+      "design-systems",
+      "radix-ui",
+      "react",
+      "ui",
+      "ui-components",
+      "ui-kit"
+    ],
+    "created_at": "2020-06-19T13:23:22Z",
+    "updated_at": "2026-10-19T15:00:53Z",
+    "pushed_at": "2026-10-14T21:52:47Z",
+    "default_branch": "main",
+    "archived": false,
+    "fork": false,
+    "search_score": 1.0,
+    "matched_topics": [
+      "React accessibility"
+    ],
+    "quality_score": 74.38
   },
   {
     "id": 208362715,
@@ -2662,9 +2654,9 @@
     "description": "A collection of libraries and tools that help you build adaptive, accessible, and robust user experiences.",
     "html_url": "https://github.com/adobe/react-spectrum",
     "language": "TypeScript",
-    "stars": 15935,
-    "forks": 1596,
-    "open_issues": 634,
+    "stars": 15964,
+    "forks": 1608,
+    "open_issues": 635,
     "topics": [
       "accessibility",
       "design-systems",
@@ -2674,8 +2666,8 @@
       "wai-aria"
     ],
     "created_at": "2019-09-13T23:32:51Z",
-    "updated_at": "2026-10-11T19:00:32Z",
-    "pushed_at": "2026-10-12T03:51:42Z",
+    "updated_at": "2026-10-19T14:20:13Z",
+    "pushed_at": "2026-10-19T05:06:53Z",
     "default_branch": "main",
     "archived": false,
     "fork": false,
@@ -2683,7 +2675,7 @@
     "matched_topics": [
       "React accessibility"
     ],
-    "quality_score": 73.93
+    "quality_score": 73.95
   },
   {
     "id": 522822986,
@@ -2693,15 +2685,15 @@
     "description": "FastAPI Best Practices and Conventions we used at our startup",
     "html_url": "https://github.com/zhanymkanov/fastapi-best-practices",
     "language": null,
-    "stars": 18171,
-    "forks": 1327,
+    "stars": 18208,
+    "forks": 1329,
     "open_issues": 16,
     "topics": [
       "best-practices",
       "fastapi"
     ],
     "created_at": "2022-08-09T06:03:38Z",
-    "updated_at": "2026-10-12T11:11:31Z",
+    "updated_at": "2026-10-19T13:03:58Z",
     "pushed_at": "2026-08-27T12:54:52Z",
     "default_branch": "master",
     "archived": false,
@@ -2710,7 +2702,7 @@
     "matched_topics": [
       "FastAPI"
     ],
-    "quality_score": 73.89
+    "quality_score": 73.85
   },
   {
     "id": 399495186,
@@ -2720,9 +2712,9 @@
     "description": "SQL databases in Python, designed for simplicity, compatibility, and robustness.",
     "html_url": "https://github.com/fastapi/sqlmodel",
     "language": "Python",
-    "stars": 18374,
+    "stars": 18423,
     "forks": 893,
-    "open_issues": 54,
+    "open_issues": 53,
     "topics": [
       "fastapi",
       "json",
@@ -2733,8 +2725,8 @@
       "sqlalchemy"
     ],
     "created_at": "2021-08-24T14:26:53Z",
-    "updated_at": "2026-10-12T16:47:42Z",
-    "pushed_at": "2026-10-06T21:44:19Z",
+    "updated_at": "2026-10-19T12:14:34Z",
+    "pushed_at": "2026-10-15T15:47:18Z",
     "default_branch": "main",
     "archived": false,
     "fork": false,
@@ -2742,7 +2734,7 @@
     "matched_topics": [
       "FastAPI"
     ],
-    "quality_score": 73.69
+    "quality_score": 73.72
   },
   {
     "id": 56315715,
@@ -2752,8 +2744,8 @@
     "description": "Mobile-first, accessible components for React Native & Web to build consistent UI across Android, iOS and Web.",
     "html_url": "https://github.com/GeekyAnts/NativeBase",
     "language": "TypeScript",
-    "stars": 20367,
-    "forks": 2386,
+    "stars": 20365,
+    "forks": 2385,
     "open_issues": 377,
     "topics": [
       "android",
@@ -2767,7 +2759,7 @@
       "ui-components"
     ],
     "created_at": "2016-04-15T11:37:23Z",
-    "updated_at": "2026-10-12T12:47:15Z",
+    "updated_at": "2026-10-19T06:32:50Z",
     "pushed_at": "2026-01-31T17:46:33Z",
     "default_branch": "master",
     "archived": false,
@@ -2776,7 +2768,7 @@
     "matched_topics": [
       "React accessibility"
     ],
-    "quality_score": 73.67
+    "quality_score": 73.63
   },
   {
     "id": 17537748,
@@ -2787,8 +2779,8 @@
     "html_url": "https://github.com/humiaozuzu/awesome-flask",
     "language": null,
     "stars": 12785,
-    "forks": 1566,
-    "open_issues": 9,
+    "forks": 1634,
+    "open_issues": 11,
     "topics": [
       "awesome",
       "awesome-list",
@@ -2797,7 +2789,7 @@
       "python"
     ],
     "created_at": "2014-03-08T07:54:36Z",
-    "updated_at": "2026-10-12T08:16:00Z",
+    "updated_at": "2026-10-18T13:12:25Z",
     "pushed_at": "2026-08-17T02:06:31Z",
     "default_branch": "main",
     "archived": false,
@@ -2806,7 +2798,7 @@
     "matched_topics": [
       "Flask"
     ],
-    "quality_score": 72.66
+    "quality_score": 72.67
   },
   {
     "id": 979480,
@@ -2816,8 +2808,8 @@
     "description": "a small, expressive orm -- supports postgresql, mysql, sqlite, now with asyncio",
     "html_url": "https://github.com/coleifer/peewee",
     "language": "Python",
-    "stars": 11992,
-    "forks": 1384,
+    "stars": 11995,
+    "forks": 1382,
     "open_issues": 0,
     "topics": [
       "asyncio",
@@ -2830,7 +2822,7 @@
       "sqlite"
     ],
     "created_at": "2010-10-11T20:14:11Z",
-    "updated_at": "2026-10-12T06:20:22Z",
+    "updated_at": "2026-10-19T04:56:11Z",
     "pushed_at": "2026-10-07T11:47:34Z",
     "default_branch": "master",
     "archived": false,
@@ -2839,7 +2831,7 @@
     "matched_topics": [
       "Flask"
     ],
-    "quality_score": 72.6
+    "quality_score": 72.55
   },
   {
     "id": 240315046,
@@ -2849,8 +2841,8 @@
     "description": "☁️ Build multimodal AI applications with cloud-native stack",
     "html_url": "https://github.com/jina-ai/serve",
     "language": "Python",
-    "stars": 21857,
-    "forks": 2240,
+    "stars": 21854,
+    "forks": 2239,
     "open_issues": 26,
     "topics": [
       "cloud-native",
@@ -2875,7 +2867,7 @@
       "prometheus"
     ],
     "created_at": "2020-02-13T17:04:44Z",
-    "updated_at": "2026-10-12T12:52:06Z",
+    "updated_at": "2026-10-17T12:40:15Z",
     "pushed_at": "2025-03-24T13:59:54Z",
     "default_branch": "master",
     "archived": false,
@@ -2884,7 +2876,7 @@
     "matched_topics": [
       "FastAPI"
     ],
-    "quality_score": 71.72
+    "quality_score": 71.67
   },
   {
     "id": 76937669,
@@ -2894,7 +2886,7 @@
     "description": "React Native UI library built on the Eva Design System: 30+ themeable, accessible components for iOS, Android and web. TypeScript, React 19 / RN 0.81, Eva and Material themes with runtime light/dark switching, on-demand style compilation.",
     "html_url": "https://github.com/akveo/react-native-ui-kitten",
     "language": "TypeScript",
-    "stars": 10664,
+    "stars": 10663,
     "forks": 961,
     "open_issues": 15,
     "topics": [
@@ -2908,7 +2900,7 @@
       "ui-library"
     ],
     "created_at": "2016-12-20T08:22:38Z",
-    "updated_at": "2026-10-11T08:07:41Z",
+    "updated_at": "2026-10-19T04:21:35Z",
     "pushed_at": "2026-10-06T07:17:03Z",
     "default_branch": "master",
     "archived": false,
@@ -2917,7 +2909,7 @@
     "matched_topics": [
       "React accessibility"
     ],
-    "quality_score": 71.66
+    "quality_score": 71.61
   },
   {
     "id": 762289766,
@@ -2927,9 +2919,9 @@
     "description": "Unstyled UI components for building accessible web apps and design systems. From the creators of Radix, Floating UI, and Material UI.",
     "html_url": "https://github.com/mui/base-ui",
     "language": "TypeScript",
-    "stars": 11135,
-    "forks": 572,
-    "open_issues": 486,
+    "stars": 11181,
+    "forks": 581,
+    "open_issues": 461,
     "topics": [
       "accessibility",
       "base-ui",
@@ -2941,8 +2933,8 @@
       "wai-aria"
     ],
     "created_at": "2024-02-23T13:23:54Z",
-    "updated_at": "2026-10-12T17:01:53Z",
-    "pushed_at": "2026-10-12T13:49:03Z",
+    "updated_at": "2026-10-19T11:30:14Z",
+    "pushed_at": "2026-10-19T11:30:06Z",
     "default_branch": "master",
     "archived": false,
     "fork": false,
@@ -2950,7 +2942,7 @@
     "matched_topics": [
       "React accessibility"
     ],
-    "quality_score": 71.19
+    "quality_score": 71.23
   },
   {
     "id": 1778471,
@@ -2961,7 +2953,7 @@
     "html_url": "https://github.com/postmanlabs/httpbin",
     "language": "Python",
     "stars": 13638,
-    "forks": 1926,
+    "forks": 1927,
     "open_issues": 190,
     "topics": [
       "api",
@@ -2974,7 +2966,7 @@
       "testing"
     ],
     "created_at": "2011-05-20T21:14:01Z",
-    "updated_at": "2026-10-12T12:11:51Z",
+    "updated_at": "2026-10-18T20:45:58Z",
     "pushed_at": "2024-05-24T07:51:48Z",
     "default_branch": "master",
     "archived": false,
@@ -2983,7 +2975,7 @@
     "matched_topics": [
       "Flask"
     ],
-    "quality_score": 67.6
+    "quality_score": 67.55
   },
   {
     "id": 109004193,
@@ -2993,7 +2985,7 @@
     "description": "People tracker on the Internet: OSINT analysis and research tool by Jose Pino",
     "html_url": "https://github.com/jofpin/trape",
     "language": "Python",
-    "stars": 9054,
+    "stars": 9057,
     "forks": 1363,
     "open_issues": 255,
     "topics": [
@@ -3011,7 +3003,7 @@
       "tracking"
     ],
     "created_at": "2017-10-31T14:03:57Z",
-    "updated_at": "2026-10-12T13:08:36Z",
+    "updated_at": "2026-10-19T10:24:20Z",
     "pushed_at": "2024-06-20T19:04:00Z",
     "default_branch": "master",
     "archived": false,
@@ -3020,7 +3012,7 @@
     "matched_topics": [
       "Flask"
     ],
-    "quality_score": 65.74
+    "quality_score": 65.69
   },
   {
     "id": 60664534,
@@ -3031,7 +3023,7 @@
     "html_url": "https://github.com/clauderic/react-sortable-hoc",
     "language": "JavaScript",
     "stars": 10884,
-    "forks": 958,
+    "forks": 957,
     "open_issues": 289,
     "topics": [
       "drag-and-drop",
@@ -3045,7 +3037,7 @@
       "sorting"
     ],
     "created_at": "2016-06-08T03:11:35Z",
-    "updated_at": "2026-10-08T12:26:59Z",
+    "updated_at": "2026-10-18T17:00:40Z",
     "pushed_at": "2023-09-13T09:49:18Z",
     "default_branch": "master",
     "archived": false,
@@ -3054,7 +3046,7 @@
     "matched_topics": [
       "React accessibility"
     ],
-    "quality_score": 64.07
+    "quality_score": 64.02
   },
   {
     "id": 50063252,
@@ -3064,7 +3056,7 @@
     "description": "Serverless Python",
     "html_url": "https://github.com/Miserlou/Zappa",
     "language": "Python",
-    "stars": 11813,
+    "stars": 11814,
     "forks": 1167,
     "open_issues": 686,
     "topics": [
@@ -3081,7 +3073,7 @@
       "zappa"
     ],
     "created_at": "2016-01-20T21:57:04Z",
-    "updated_at": "2026-10-12T02:43:22Z",
+    "updated_at": "2026-10-18T06:34:26Z",
     "pushed_at": "2023-03-23T13:59:31Z",
     "default_branch": "master",
     "archived": false,
@@ -3090,7 +3082,7 @@
     "matched_topics": [
       "Flask"
     ],
-    "quality_score": 63.46
+    "quality_score": 63.41
   },
   {
     "id": 737898780,
@@ -3100,8 +3092,8 @@
     "description": "The personal finance app for everyone",
     "html_url": "https://github.com/maybe-finance/maybe",
     "language": "Ruby",
-    "stars": 54232,
-    "forks": 5675,
+    "stars": 54214,
+    "forks": 5670,
     "open_issues": 0,
     "topics": [
       "finance",
@@ -3114,7 +3106,7 @@
       "turbo"
     ],
     "created_at": "2024-01-01T22:23:46Z",
-    "updated_at": "2026-10-12T12:45:48Z",
+    "updated_at": "2026-10-19T14:34:28Z",
     "pushed_at": "2025-07-24T22:20:44Z",
     "default_branch": "main",
     "archived": true,
@@ -3123,7 +3115,7 @@
     "matched_topics": [
       "PostgreSQL"
     ],
-    "quality_score": 19.33
+    "quality_score": 19.32
   },
   {
     "id": 99761907,
@@ -3133,7 +3125,7 @@
     "description": "Beautiful and accessible drag and drop for lists with React",
     "html_url": "https://github.com/atlassian/react-beautiful-dnd",
     "language": "JavaScript",
-    "stars": 33911,
+    "stars": 33902,
     "forks": 2688,
     "open_issues": 642,
     "topics": [
@@ -3145,7 +3137,7 @@
       "sortable"
     ],
     "created_at": "2017-08-09T03:37:15Z",
-    "updated_at": "2026-10-12T13:25:40Z",
+    "updated_at": "2026-10-19T14:34:00Z",
     "pushed_at": "2025-08-18T04:35:31Z",
     "default_branch": "master",
     "archived": true,
@@ -3154,7 +3146,7 @@
     "matched_topics": [
       "React accessibility"
     ],
-    "quality_score": 18.67
+    "quality_score": 18.66
   },
   {
     "id": 235434204,
@@ -3164,7 +3156,7 @@
     "description": "A self-hosted, ad-free, privacy-respecting metasearch engine",
     "html_url": "https://github.com/benbusby/whoogle-search",
     "language": "Python",
-    "stars": 11567,
+    "stars": 11562,
     "forks": 1051,
     "open_issues": 1,
     "topics": [
@@ -3181,7 +3173,7 @@
       "search-engine"
     ],
     "created_at": "2020-01-21T20:22:33Z",
-    "updated_at": "2026-10-12T11:35:43Z",
+    "updated_at": "2026-10-19T10:40:16Z",
     "pushed_at": "2026-08-14T14:12:30Z",
     "default_branch": "main",
     "archived": true,
@@ -3190,6 +3182,6 @@
     "matched_topics": [
       "Flask"
     ],
-    "quality_score": 17.93
+    "quality_score": 17.92
   }
 ]
